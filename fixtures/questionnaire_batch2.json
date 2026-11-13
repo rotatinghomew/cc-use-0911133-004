@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "note": "新收集批次样例：用于演示把已保存映射应用到 fit 之后的数据；不含 bridges，apply 不会重新拟合",
+  "responses": [
+    {
+      "record_id": "batch2-001",
+      "subject_id": "person-201",
+      "version": "short",
+      "group": "urban",
+      "collected_at": "2026-09-02",
+      "analysis_consent": true,
+      "displayed": ["contact", "travel", "digital"],
+      "answers": {"contact": 2, "travel": 1, "digital": 1},
+      "branch": "full",
+      "confirmed_demand": {"value": true, "known_at": "2026-09-25"}
+    },
+    {
+      "record_id": "batch2-002",
+      "subject_id": "person-202",
+      "version": "short",
+      "group": "urban",
+      "collected_at": "2026-09-02",
+      "analysis_consent": true,
+      "displayed": ["contact", "digital"],
+      "answers": {"contact": 3, "digital": 2},
+      "branch": "skip-travel"
+    },
+    {
+      "record_id": "batch2-003",
+      "subject_id": "person-203",
+      "version": "short",
+      "group": "remote",
+      "collected_at": "2026-09-03",
+      "analysis_consent": true,
+      "displayed": ["contact", "travel", "digital"],
+      "answers": {"contact": 3, "travel": 0, "digital": 1},
+      "branch": "full"
+    },
+    {
+      "record_id": "batch2-004",
+      "subject_id": "person-204",
+      "version": "short",
+      "group": "urban",
+      "collected_at": "2026-09-03",
+      "analysis_consent": false,
+      "displayed": ["contact", "travel", "digital"],
+      "answers": {"contact": 1, "travel": 1, "digital": 0},
+      "branch": "full"
+    },
+    {
+      "record_id": "batch2-005",
+      "subject_id": "person-205",
+      "version": "third",
+      "group": "new-region",
+      "collected_at": "2026-09-09",
+      "analysis_consent": true,
+      "displayed": ["new-item"],
+      "answers": {"new-item": 2},
+      "branch": "other"
+    }
+  ]
+}
