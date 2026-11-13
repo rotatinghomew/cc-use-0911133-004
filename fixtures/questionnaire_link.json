@@ -1,0 +1,6198 @@
+{
+  "schema_version": 1,
+  "seed": 11,
+  "fit_known_through": "2026-08-08",
+  "versions": {
+    "long": {
+      "items": [
+        "contact",
+        "travel",
+        "digital",
+        "availability"
+      ],
+      "range": [
+        0,
+        3
+      ],
+      "direction": "higher-more-demand"
+    },
+    "short": {
+      "items": [
+        "contact",
+        "travel",
+        "digital"
+      ],
+      "range": [
+        0,
+        3
+      ],
+      "direction": "higher-more-demand"
+    },
+    "third": {
+      "items": [
+        "new-item"
+      ],
+      "range": [
+        0,
+        3
+      ],
+      "direction": "higher-more-demand"
+    }
+  },
+  "common_items": [
+    "contact",
+    "travel",
+    "digital"
+  ],
+  "bridges": [
+    {
+      "bridge_id": "bridge-0",
+      "long": {
+        "record_id": "response-000",
+        "subject_id": "person-000",
+        "version": "long",
+        "group": "remote",
+        "collected_at": "2026-07-01",
+        "analysis_consent": false,
+        "displayed": [
+          "contact",
+          "travel",
+          "digital",
+          "availability"
+        ],
+        "answers": {
+          "contact": 0,
+          "travel": 0,
+          "digital": null,
+          "availability": 0
+        },
+        "branch": "full",
+        "confirmed_demand": {
+          "value": false,
+          "known_at": "2026-07-21"
+        }
+      },
+      "short": {
+        "record_id": "bridge-short-0",
+        "subject_id": "person-000",
+        "version": "short",
+        "group": "remote",
+        "collected_at": "2026-07-01",
+        "analysis_consent": false,
+        "displayed": [
+          "contact",
+          "travel",
+          "digital"
+        ],
+        "answers": {
+          "contact": 2,
+          "travel": 0,
+          "digital": null
+        },
+        "branch": "full",
+        "confirmed_demand": {
+          "value": false,
+          "known_at": "2026-07-21"
+        }
+      },
+      "recruitment": "service-desk"
+    },
+    {
+      "bridge_id": "bridge-1",
+      "long": {
+        "record_id": "response-001",
+        "subject_id": "person-001",
+        "version": "long",
+        "group": "urban",
+        "collected_at": "2026-07-01",
+        "analysis_consent": true,
+        "displayed": [
+          "contact",
+          "travel",
+          "digital",
+          "availability"
+        ],
+        "answers": {
+          "contact": 1,
+          "travel": 0,
+          "digital": 0,
+          "availability": 0
+        },
+        "branch": "full",
+        "confirmed_demand": {
+          "value": true,
+          "known_at": "2026-07-21"
+        }
+      },
+      "short": {
+        "record_id": "bridge-short-1",
+        "subject_id": "person-001",
+        "version": "short",
+        "group": "urban",
+        "collected_at": "2026-07-01",
+        "analysis_consent": true,
+        "displayed": [
+          "contact",
+          "travel",
+          "digital"
+        ],
+        "answers": {
+          "contact": 1,
+          "travel": 0,
+          "digital": 0
+        },
+        "branch": "full",
+        "confirmed_demand": {
+          "value": true,
+          "known_at": "2026-07-21"
+        }
+      },
+      "recruitment": "service-desk"
+    },
+    {
+      "bridge_id": "bridge-2",
+      "long": {
+        "record_id": "response-002",
+        "subject_id": "person-002",
+        "version": "long",
+        "group": "urban",
+        "collected_at": "2026-07-01",
+        "analysis_consent": true,
+        "displayed": [
+          "contact",
+          "travel",
+          "digital",
+          "availability"
+        ],
+        "answers": {
+          "contact": 2,
+          "travel": 1,
+          "digital": 0,
+          "availability": 0
+        },
+        "branch": "full",
+        "confirmed_demand": {
+          "value": true,
+          "known_at": "2026-07-21"
+        }
+      },
+      "short": {
+        "record_id": "bridge-short-2",
+        "subject_id": "person-002",
+        "version": "short",
+        "group": "urban",
+        "collected_at": "2026-07-01",
+        "analysis_consent": true,
+        "displayed": [
+          "contact",
+          "travel",
+          "digital"
+        ],
+        "answers": {
+          "contact": 2,
+          "travel": 1,
+          "digital": 0
+        },
+        "branch": "full",
+        "confirmed_demand": {
+          "value": true,
+          "known_at": "2026-07-21"
+        }
+      },
+      "recruitment": "service-desk"
+    },
+    {
+      "bridge_id": "bridge-3",
+      "long": {
+        "record_id": "response-003",
+        "subject_id": "person-003",
+        "version": "long",
+        "group": "urban",
+        "collected_at": "2026-07-02",
+        "analysis_consent": true,
+        "displayed": [
+          "contact",
+          "travel",
+          "digital",
+          "availability"
+        ],
+        "answers": {
+          "contact": 3,
+          "travel": 1,
+          "digital": 1,
+          "availability": 0
+        },
+        "branch": "full",
+        "confirmed_demand": {
+          "value": false,
+          "known_at": "2026-07-22"
+        }
+      },
+      "short": {
+        "record_id": "bridge-short-3",
+        "subject_id": "person-003",
+        "version": "short",
+        "group": "urban",
+        "collected_at": "2026-07-02",
+        "analysis_consent": true,
+        "displayed": [
+          "contact",
+          "travel",
+          "digital"
+        ],
+        "answers": {
+          "contact": 3,
+          "travel": 1,
+          "digital": 1
+        },
+        "branch": "full",
+        "confirmed_demand": {
+          "value": false,
+          "known_at": "2026-07-22"
+        }
+      },
+      "recruitment": "service-desk"
+    },
+    {
+      "bridge_id": "bridge-4",
+      "long": {
+        "record_id": "response-004",
+        "subject_id": "person-004",
+        "version": "long",
+        "group": "urban",
+        "collected_at": "2026-07-02",
+        "analysis_consent": true,
+        "displayed": [
+          "contact",
+          "travel",
+          "digital",
+          "availability"
+        ],
+        "answers": {
+          "contact": 0,
+          "travel": 2,
+          "digital": 1,
+          "availability": 1
+        },
+        "branch": "full",
+        "confirmed_demand": {
+          "value": true,
+          "known_at": "2026-07-22"
+        }
+      },
+      "short": {
+        "record_id": "bridge-short-4",
+        "subject_id": "person-004",
+        "version": "short",
+        "group": "urban",
+        "collected_at": "2026-07-02",
+        "analysis_consent": true,
+        "displayed": [
+          "contact",
+          "travel",
+          "digital"
+        ],
+        "answers": {
+          "contact": 0,
+          "travel": 2,
+          "digital": 1
+        },
+        "branch": "full",
+        "confirmed_demand": {
+          "value": true,
+          "known_at": "2026-07-22"
+        }
+      },
+      "recruitment": "service-desk"
+    },
+    {
+      "bridge_id": "bridge-5",
+      "long": {
+        "record_id": "response-005",
+        "subject_id": "person-005",
+        "version": "long",
+        "group": "remote",
+        "collected_at": "2026-07-02",
+        "analysis_consent": true,
+        "displayed": [
+          "contact",
+          "travel",
+          "digital",
+          "availability"
+        ],
+        "answers": {
+          "contact": 1,
+          "travel": 2,
+          "digital": 1,
+          "availability": 1
+        },
+        "branch": "full",
+        "confirmed_demand": {
+          "value": true,
+          "known_at": "2026-07-22"
+        }
+      },
+      "short": {
+        "record_id": "bridge-short-5",
+        "subject_id": "person-005",
+        "version": "short",
+        "group": "remote",
+        "collected_at": "2026-07-02",
+        "analysis_consent": true,
+        "displayed": [
+          "contact",
+          "travel",
+          "digital"
+        ],
+        "answers": {
+          "contact": 3,
+          "travel": 2,
+          "digital": 1
+        },
+        "branch": "full",
+        "confirmed_demand": {
+          "value": true,
+          "known_at": "2026-07-22"
+        }
+      },
+      "recruitment": "service-desk"
+    },
+    {
+      "bridge_id": "bridge-6",
+      "long": {
+        "record_id": "response-006",
+        "subject_id": "person-006",
+        "version": "long",
+        "group": "urban",
+        "collected_at": "2026-07-03",
+        "analysis_consent": true,
+        "displayed": [
+          "contact",
+          "travel",
+          "digital",
+          "availability"
+        ],
+        "answers": {
+          "contact": 2,
+          "travel": 3,
+          "digital": 2,
+          "availability": 1
+        },
+        "branch": "full",
+        "confirmed_demand": {
+          "value": false,
+          "known_at": "2026-07-23"
+        }
+      },
+      "short": {
+        "record_id": "bridge-short-6",
+        "subject_id": "person-006",
+        "version": "short",
+        "group": "urban",
+        "collected_at": "2026-07-03",
+        "analysis_consent": true,
+        "displayed": [
+          "contact",
+          "travel",
+          "digital"
+        ],
+        "answers": {
+          "contact": 2,
+          "travel": 3,
+          "digital": 2
+        },
+        "branch": "full",
+        "confirmed_demand": {
+          "value": false,
+          "known_at": "2026-07-23"
+        }
+      },
+      "recruitment": "service-desk"
+    },
+    {
+      "bridge_id": "bridge-7",
+      "long": {
+        "record_id": "response-007",
+        "subject_id": "person-007",
+        "version": "long",
+        "group": "urban",
+        "collected_at": "2026-07-03",
+        "analysis_consent": true,
+        "displayed": [
+          "contact",
+          "travel",
+          "digital",
+          "availability"
+        ],
+        "answers": {
+          "contact": 3,
+          "travel": 3,
+          "digital": 2,
+          "availability": 1
+        },
+        "branch": "full",
+        "confirmed_demand": {
+          "value": true,
+          "known_at": "2026-07-23"
+        }
+      },
+      "short": {
+        "record_id": "bridge-short-7",
+        "subject_id": "person-007",
+        "version": "short",
+        "group": "urban",
+        "collected_at": "2026-07-03",
+        "analysis_consent": true,
+        "displayed": [
+          "contact",
+          "travel",
+          "digital"
+        ],
+        "answers": {
+          "contact": 3,
+          "travel": 3,
+          "digital": 2
+        },
+        "branch": "full",
+        "confirmed_demand": {
+          "value": true,
+          "known_at": "2026-07-23"
+        }
+      },
+      "recruitment": "service-desk"
+    },
+    {
+      "bridge_id": "bridge-8",
+      "long": {
+        "record_id": "response-008",
+        "subject_id": "person-008",
+        "version": "long",
+        "group": "urban",
+        "collected_at": "2026-07-03",
+        "analysis_consent": true,
+        "displayed": [
+          "contact",
+          "travel",
+          "digital",
+          "availability"
+        ],
+        "answers": {
+          "contact": 0,
+          "travel": 0,
+          "digital": 2,
+          "availability": 2
+        },
+        "branch": "full",
+        "confirmed_demand": {
+          "value": true,
+          "known_at": "2026-07-23"
+        }
+      },
+      "short": {
+        "record_id": "bridge-short-8",
+        "subject_id": "person-008",
+        "version": "short",
+        "group": "urban",
+        "collected_at": "2026-07-03",
+        "analysis_consent": true,
+        "displayed": [
+          "contact",
+          "travel",
+          "digital"
+        ],
+        "answers": {
+          "contact": 0,
+          "travel": 0,
+          "digital": 2
+        },
+        "branch": "full",
+        "confirmed_demand": {
+          "value": true,
+          "known_at": "2026-07-23"
+        }
+      },
+      "recruitment": "service-desk"
+    },
+    {
+      "bridge_id": "bridge-9",
+      "long": {
+        "record_id": "response-009",
+        "subject_id": "person-009",
+        "version": "long",
+        "group": "urban",
+        "collected_at": "2026-07-04",
+        "analysis_consent": true,
+        "displayed": [
+          "contact",
+          "travel",
+          "digital",
+          "availability"
+        ],
+        "answers": {
+          "contact": 1,
+          "travel": 0,
+          "digital": 3,
+          "availability": 2
+        },
+        "branch": "full",
+        "confirmed_demand": {
+          "value": false,
+          "known_at": "2026-07-24"
+        }
+      },
+      "short": {
+        "record_id": "bridge-short-9",
+        "subject_id": "person-009",
+        "version": "short",
+        "group": "urban",
+        "collected_at": "2026-07-04",
+        "analysis_consent": true,
+        "displayed": [
+          "contact",
+          "travel",
+          "digital"
+        ],
+        "answers": {
+          "contact": 1,
+          "travel": 0,
+          "digital": 3
+        },
+        "branch": "full",
+        "confirmed_demand": {
+          "value": false,
+          "known_at": "2026-07-24"
+        }
+      },
+      "recruitment": "service-desk"
+    },
+    {
+      "bridge_id": "bridge-10",
+      "long": {
+        "record_id": "response-010",
+        "subject_id": "person-010",
+        "version": "long",
+        "group": "remote",
+        "collected_at": "2026-07-04",
+        "analysis_consent": true,
+        "displayed": [
+          "contact",
+          "travel",
+          "digital",
+          "availability"
+        ],
+        "answers": {
+          "contact": 2,
+          "travel": 1,
+          "digital": 3,
+          "availability": 2
+        },
+        "branch": "full",
+        "confirmed_demand": {
+          "value": true,
+          "known_at": "2026-07-24"
+        }
+      },
+      "short": {
+        "record_id": "bridge-short-10",
+        "subject_id": "person-010",
+        "version": "short",
+        "group": "remote",
+        "collected_at": "2026-07-04",
+        "analysis_consent": true,
+        "displayed": [
+          "contact",
+          "travel",
+          "digital"
+        ],
+        "answers": {
+          "contact": 3,
+          "travel": 1,
+          "digital": 3
+        },
+        "branch": "full",
+        "confirmed_demand": {
+          "value": true,
+          "known_at": "2026-07-24"
+        }
+      },
+      "recruitment": "service-desk"
+    },
+    {
+      "bridge_id": "bridge-11",
+      "long": {
+        "record_id": "response-011",
+        "subject_id": "person-011",
+        "version": "long",
+        "group": "urban",
+        "collected_at": "2026-07-04",
+        "analysis_consent": true,
+        "displayed": [
+          "contact",
+          "travel",
+          "digital",
+          "availability"
+        ],
+        "answers": {
+          "contact": 3,
+          "travel": 1,
+          "digital": 3,
+          "availability": 2
+        },
+        "branch": "full",
+        "confirmed_demand": {
+          "value": true,
+          "known_at": "2026-07-24"
+        }
+      },
+      "short": {
+        "record_id": "bridge-short-11",
+        "subject_id": "person-011",
+        "version": "short",
+        "group": "urban",
+        "collected_at": "2026-07-04",
+        "analysis_consent": true,
+        "displayed": [
+          "contact",
+          "travel",
+          "digital"
+        ],
+        "answers": {
+          "contact": 3,
+          "travel": 1,
+          "digital": 3
+        },
+        "branch": "full",
+        "confirmed_demand": {
+          "value": true,
+          "known_at": "2026-07-24"
+        }
+      },
+      "recruitment": "service-desk"
+    },
+    {
+      "bridge_id": "bridge-12",
+      "long": {
+        "record_id": "response-012",
+        "subject_id": "person-012",
+        "version": "long",
+        "group": "urban",
+        "collected_at": "2026-07-05",
+        "analysis_consent": true,
+        "displayed": [
+          "contact",
+          "travel",
+          "digital",
+          "availability"
+        ],
+        "answers": {
+          "contact": 0,
+          "travel": 2,
+          "digital": 0,
+          "availability": 3
+        },
+        "branch": "full",
+        "confirmed_demand": {
+          "value": false,
+          "known_at": "2026-07-25"
+        }
+      },
+      "short": {
+        "record_id": "bridge-short-12",
+        "subject_id": "person-012",
+        "version": "short",
+        "group": "urban",
+        "collected_at": "2026-07-05",
+        "analysis_consent": true,
+        "displayed": [
+          "contact",
+          "travel",
+          "digital"
+        ],
+        "answers": {
+          "contact": 0,
+          "travel": 2,
+          "digital": 0
+        },
+        "branch": "full",
+        "confirmed_demand": {
+          "value": false,
+          "known_at": "2026-07-25"
+        }
+      },
+      "recruitment": "service-desk"
+    },
+    {
+      "bridge_id": "bridge-13",
+      "long": {
+        "record_id": "response-013",
+        "subject_id": "person-013",
+        "version": "long",
+        "group": "urban",
+        "collected_at": "2026-07-05",
+        "analysis_consent": true,
+        "displayed": [
+          "contact",
+          "travel",
+          "digital",
+          "availability"
+        ],
+        "answers": {
+          "contact": 1,
+          "travel": 2,
+          "digital": null,
+          "availability": 3
+        },
+        "branch": "full",
+        "confirmed_demand": {
+          "value": true,
+          "known_at": "2026-07-25"
+        }
+      },
+      "short": {
+        "record_id": "bridge-short-13",
+        "subject_id": "person-013",
+        "version": "short",
+        "group": "urban",
+        "collected_at": "2026-07-05",
+        "analysis_consent": true,
+        "displayed": [
+          "contact",
+          "travel",
+          "digital"
+        ],
+        "answers": {
+          "contact": 1,
+          "travel": 2,
+          "digital": null
+        },
+        "branch": "full",
+        "confirmed_demand": {
+          "value": true,
+          "known_at": "2026-07-25"
+        }
+      },
+      "recruitment": "service-desk"
+    },
+    {
+      "bridge_id": "bridge-14",
+      "long": {
+        "record_id": "response-014",
+        "subject_id": "person-014",
+        "version": "long",
+        "group": "urban",
+        "collected_at": "2026-07-05",
+        "analysis_consent": true,
+        "displayed": [
+          "contact",
+          "travel",
+          "digital",
+          "availability"
+        ],
+        "answers": {
+          "contact": 2,
+          "travel": 3,
+          "digital": 0,
+          "availability": 3
+        },
+        "branch": "full",
+        "confirmed_demand": {
+          "value": true,
+          "known_at": "2026-07-25"
+        }
+      },
+      "short": {
+        "record_id": "bridge-short-14",
+        "subject_id": "person-014",
+        "version": "short",
+        "group": "urban",
+        "collected_at": "2026-07-05",
+        "analysis_consent": true,
+        "displayed": [
+          "contact",
+          "travel",
+          "digital"
+        ],
+        "answers": {
+          "contact": 2,
+          "travel": 3,
+          "digital": 0
+        },
+        "branch": "full",
+        "confirmed_demand": {
+          "value": true,
+          "known_at": "2026-07-25"
+        }
+      },
+      "recruitment": "service-desk"
+    },
+    {
+      "bridge_id": "bridge-15",
+      "long": {
+        "record_id": "response-015",
+        "subject_id": "person-015",
+        "version": "long",
+        "group": "remote",
+        "collected_at": "2026-07-06",
+        "analysis_consent": true,
+        "displayed": [
+          "contact",
+          "travel",
+          "digital",
+          "availability"
+        ],
+        "answers": {
+          "contact": 3,
+          "travel": 3,
+          "digital": 1,
+          "availability": 3
+        },
+        "branch": "full",
+        "confirmed_demand": {
+          "value": false,
+          "known_at": "2026-07-26"
+        }
+      },
+      "short": {
+        "record_id": "bridge-short-15",
+        "subject_id": "person-015",
+        "version": "short",
+        "group": "remote",
+        "collected_at": "2026-07-06",
+        "analysis_consent": true,
+        "displayed": [
+          "contact",
+          "travel",
+          "digital"
+        ],
+        "answers": {
+          "contact": 3,
+          "travel": 3,
+          "digital": 1
+        },
+        "branch": "full",
+        "confirmed_demand": {
+          "value": false,
+          "known_at": "2026-07-26"
+        }
+      },
+      "recruitment": "service-desk"
+    },
+    {
+      "bridge_id": "bridge-16",
+      "long": {
+        "record_id": "response-016",
+        "subject_id": "person-016",
+        "version": "long",
+        "group": "urban",
+        "collected_at": "2026-07-06",
+        "analysis_consent": true,
+        "displayed": [
+          "contact",
+          "travel",
+          "digital",
+          "availability"
+        ],
+        "answers": {
+          "contact": 0,
+          "travel": 0,
+          "digital": 1,
+          "availability": 0
+        },
+        "branch": "full",
+        "confirmed_demand": {
+          "value": true,
+          "known_at": "2026-07-26"
+        }
+      },
+      "short": {
+        "record_id": "bridge-short-16",
+        "subject_id": "person-016",
+        "version": "short",
+        "group": "urban",
+        "collected_at": "2026-07-06",
+        "analysis_consent": true,
+        "displayed": [
+          "contact",
+          "travel",
+          "digital"
+        ],
+        "answers": {
+          "contact": 0,
+          "travel": 0,
+          "digital": 1
+        },
+        "branch": "full",
+        "confirmed_demand": {
+          "value": true,
+          "known_at": "2026-07-26"
+        }
+      },
+      "recruitment": "service-desk"
+    },
+    {
+      "bridge_id": "bridge-17",
+      "long": {
+        "record_id": "response-017",
+        "subject_id": "person-017",
+        "version": "long",
+        "group": "urban",
+        "collected_at": "2026-07-06",
+        "analysis_consent": false,
+        "displayed": [
+          "contact",
+          "travel",
+          "digital",
+          "availability"
+        ],
+        "answers": {
+          "contact": 1,
+          "travel": 0,
+          "digital": 1,
+          "availability": 0
+        },
+        "branch": "full",
+        "confirmed_demand": {
+          "value": true,
+          "known_at": "2026-07-26"
+        }
+      },
+      "short": {
+        "record_id": "bridge-short-17",
+        "subject_id": "person-017",
+        "version": "short",
+        "group": "urban",
+        "collected_at": "2026-07-06",
+        "analysis_consent": false,
+        "displayed": [
+          "contact",
+          "travel",
+          "digital"
+        ],
+        "answers": {
+          "contact": 1,
+          "travel": 0,
+          "digital": 1
+        },
+        "branch": "full",
+        "confirmed_demand": {
+          "value": true,
+          "known_at": "2026-07-26"
+        }
+      },
+      "recruitment": "service-desk"
+    },
+    {
+      "bridge_id": "bridge-18",
+      "long": {
+        "record_id": "response-018",
+        "subject_id": "person-018",
+        "version": "long",
+        "group": "urban",
+        "collected_at": "2026-07-07",
+        "analysis_consent": true,
+        "displayed": [
+          "contact",
+          "travel",
+          "digital",
+          "availability"
+        ],
+        "answers": {
+          "contact": 2,
+          "travel": 1,
+          "digital": 2,
+          "availability": 0
+        },
+        "branch": "full",
+        "confirmed_demand": {
+          "value": false,
+          "known_at": "2026-07-27"
+        }
+      },
+      "short": {
+        "record_id": "bridge-short-18",
+        "subject_id": "person-018",
+        "version": "short",
+        "group": "urban",
+        "collected_at": "2026-07-07",
+        "analysis_consent": true,
+        "displayed": [
+          "contact",
+          "travel",
+          "digital"
+        ],
+        "answers": {
+          "contact": 2,
+          "travel": 1,
+          "digital": 2
+        },
+        "branch": "full",
+        "confirmed_demand": {
+          "value": false,
+          "known_at": "2026-07-27"
+        }
+      },
+      "recruitment": "service-desk"
+    },
+    {
+      "bridge_id": "bridge-19",
+      "long": {
+        "record_id": "response-019",
+        "subject_id": "person-019",
+        "version": "long",
+        "group": "urban",
+        "collected_at": "2026-07-07",
+        "analysis_consent": true,
+        "displayed": [
+          "contact",
+          "travel",
+          "digital",
+          "availability"
+        ],
+        "answers": {
+          "contact": 3,
+          "travel": 1,
+          "digital": 2,
+          "availability": 0
+        },
+        "branch": "full",
+        "confirmed_demand": {
+          "value": true,
+          "known_at": "2026-07-27"
+        }
+      },
+      "short": {
+        "record_id": "bridge-short-19",
+        "subject_id": "person-019",
+        "version": "short",
+        "group": "urban",
+        "collected_at": "2026-07-07",
+        "analysis_consent": true,
+        "displayed": [
+          "contact",
+          "travel",
+          "digital"
+        ],
+        "answers": {
+          "contact": 3,
+          "travel": 1,
+          "digital": 2
+        },
+        "branch": "full",
+        "confirmed_demand": {
+          "value": true,
+          "known_at": "2026-07-27"
+        }
+      },
+      "recruitment": "service-desk"
+    },
+    {
+      "bridge_id": "bridge-20",
+      "long": {
+        "record_id": "response-020",
+        "subject_id": "person-020",
+        "version": "long",
+        "group": "remote",
+        "collected_at": "2026-07-07",
+        "analysis_consent": true,
+        "displayed": [
+          "contact",
+          "travel",
+          "digital",
+          "availability"
+        ],
+        "answers": {
+          "contact": 0,
+          "travel": 2,
+          "digital": 2,
+          "availability": 1
+        },
+        "branch": "full",
+        "confirmed_demand": {
+          "value": true,
+          "known_at": "2026-07-27"
+        }
+      },
+      "short": {
+        "record_id": "bridge-short-20",
+        "subject_id": "person-020",
+        "version": "short",
+        "group": "remote",
+        "collected_at": "2026-07-07",
+        "analysis_consent": true,
+        "displayed": [
+          "contact",
+          "travel",
+          "digital"
+        ],
+        "answers": {
+          "contact": 2,
+          "travel": 2,
+          "digital": 2
+        },
+        "branch": "full",
+        "confirmed_demand": {
+          "value": true,
+          "known_at": "2026-07-27"
+        }
+      },
+      "recruitment": "service-desk"
+    },
+    {
+      "bridge_id": "bridge-21",
+      "long": {
+        "record_id": "response-021",
+        "subject_id": "person-021",
+        "version": "long",
+        "group": "urban",
+        "collected_at": "2026-07-08",
+        "analysis_consent": true,
+        "displayed": [
+          "contact",
+          "travel",
+          "digital",
+          "availability"
+        ],
+        "answers": {
+          "contact": 1,
+          "travel": 2,
+          "digital": 3,
+          "availability": 1
+        },
+        "branch": "full",
+        "confirmed_demand": {
+          "value": false,
+          "known_at": "2026-07-28"
+        }
+      },
+      "short": {
+        "record_id": "bridge-short-21",
+        "subject_id": "person-021",
+        "version": "short",
+        "group": "urban",
+        "collected_at": "2026-07-08",
+        "analysis_consent": true,
+        "displayed": [
+          "contact",
+          "travel",
+          "digital"
+        ],
+        "answers": {
+          "contact": 1,
+          "travel": 2,
+          "digital": 3
+        },
+        "branch": "full",
+        "confirmed_demand": {
+          "value": false,
+          "known_at": "2026-07-28"
+        }
+      },
+      "recruitment": "service-desk"
+    },
+    {
+      "bridge_id": "bridge-22",
+      "long": {
+        "record_id": "response-022",
+        "subject_id": "person-022",
+        "version": "long",
+        "group": "urban",
+        "collected_at": "2026-07-08",
+        "analysis_consent": true,
+        "displayed": [
+          "contact",
+          "travel",
+          "digital",
+          "availability"
+        ],
+        "answers": {
+          "contact": 2,
+          "travel": 3,
+          "digital": 3,
+          "availability": 1
+        },
+        "branch": "full",
+        "confirmed_demand": {
+          "value": true,
+          "known_at": "2026-07-28"
+        }
+      },
+      "short": {
+        "record_id": "bridge-short-22",
+        "subject_id": "person-022",
+        "version": "short",
+        "group": "urban",
+        "collected_at": "2026-07-08",
+        "analysis_consent": true,
+        "displayed": [
+          "contact",
+          "travel",
+          "digital"
+        ],
+        "answers": {
+          "contact": 2,
+          "travel": 3,
+          "digital": 3
+        },
+        "branch": "full",
+        "confirmed_demand": {
+          "value": true,
+          "known_at": "2026-07-28"
+        }
+      },
+      "recruitment": "service-desk"
+    },
+    {
+      "bridge_id": "bridge-23",
+      "long": {
+        "record_id": "response-023",
+        "subject_id": "person-023",
+        "version": "long",
+        "group": "urban",
+        "collected_at": "2026-07-08",
+        "analysis_consent": true,
+        "displayed": [
+          "contact",
+          "travel",
+          "digital",
+          "availability"
+        ],
+        "answers": {
+          "contact": 3,
+          "travel": 3,
+          "digital": 3,
+          "availability": 1
+        },
+        "branch": "full",
+        "confirmed_demand": {
+          "value": true,
+          "known_at": "2026-07-28"
+        }
+      },
+      "short": {
+        "record_id": "bridge-short-23",
+        "subject_id": "person-023",
+        "version": "short",
+        "group": "urban",
+        "collected_at": "2026-07-08",
+        "analysis_consent": true,
+        "displayed": [
+          "contact",
+          "travel",
+          "digital"
+        ],
+        "answers": {
+          "contact": 3,
+          "travel": 3,
+          "digital": 3
+        },
+        "branch": "full",
+        "confirmed_demand": {
+          "value": true,
+          "known_at": "2026-07-28"
+        }
+      },
+      "recruitment": "service-desk"
+    },
+    {
+      "bridge_id": "bridge-24",
+      "long": {
+        "record_id": "response-024",
+        "subject_id": "person-024",
+        "version": "long",
+        "group": "urban",
+        "collected_at": "2026-07-09",
+        "analysis_consent": true,
+        "displayed": [
+          "contact",
+          "travel",
+          "digital",
+          "availability"
+        ],
+        "answers": {
+          "contact": 0,
+          "travel": 0,
+          "digital": 0,
+          "availability": 2
+        },
+        "branch": "full",
+        "confirmed_demand": {
+          "value": false,
+          "known_at": "2026-07-29"
+        }
+      },
+      "short": {
+        "record_id": "bridge-short-24",
+        "subject_id": "person-024",
+        "version": "short",
+        "group": "urban",
+        "collected_at": "2026-07-09",
+        "analysis_consent": true,
+        "displayed": [
+          "contact",
+          "travel",
+          "digital"
+        ],
+        "answers": {
+          "contact": 0,
+          "travel": 0,
+          "digital": 0
+        },
+        "branch": "full",
+        "confirmed_demand": {
+          "value": false,
+          "known_at": "2026-07-29"
+        }
+      },
+      "recruitment": "service-desk"
+    },
+    {
+      "bridge_id": "bridge-25",
+      "long": {
+        "record_id": "response-025",
+        "subject_id": "person-025",
+        "version": "long",
+        "group": "remote",
+        "collected_at": "2026-07-09",
+        "analysis_consent": true,
+        "displayed": [
+          "contact",
+          "travel",
+          "digital",
+          "availability"
+        ],
+        "answers": {
+          "contact": 1,
+          "travel": 0,
+          "digital": 0,
+          "availability": 2
+        },
+        "branch": "full",
+        "confirmed_demand": {
+          "value": true,
+          "known_at": "2026-07-29"
+        }
+      },
+      "short": {
+        "record_id": "bridge-short-25",
+        "subject_id": "person-025",
+        "version": "short",
+        "group": "remote",
+        "collected_at": "2026-07-09",
+        "analysis_consent": true,
+        "displayed": [
+          "contact",
+          "travel",
+          "digital"
+        ],
+        "answers": {
+          "contact": 3,
+          "travel": 0,
+          "digital": 0
+        },
+        "branch": "full",
+        "confirmed_demand": {
+          "value": true,
+          "known_at": "2026-07-29"
+        }
+      },
+      "recruitment": "service-desk"
+    },
+    {
+      "bridge_id": "bridge-26",
+      "long": {
+        "record_id": "response-026",
+        "subject_id": "person-026",
+        "version": "long",
+        "group": "urban",
+        "collected_at": "2026-07-09",
+        "analysis_consent": true,
+        "displayed": [
+          "contact",
+          "travel",
+          "digital",
+          "availability"
+        ],
+        "answers": {
+          "contact": 2,
+          "travel": 1,
+          "digital": null,
+          "availability": 2
+        },
+        "branch": "full",
+        "confirmed_demand": {
+          "value": true,
+          "known_at": "2026-07-29"
+        }
+      },
+      "short": {
+        "record_id": "bridge-short-26",
+        "subject_id": "person-026",
+        "version": "short",
+        "group": "urban",
+        "collected_at": "2026-07-09",
+        "analysis_consent": true,
+        "displayed": [
+          "contact",
+          "travel",
+          "digital"
+        ],
+        "answers": {
+          "contact": 2,
+          "travel": 1,
+          "digital": null
+        },
+        "branch": "full",
+        "confirmed_demand": {
+          "value": true,
+          "known_at": "2026-07-29"
+        }
+      },
+      "recruitment": "service-desk"
+    },
+    {
+      "bridge_id": "bridge-27",
+      "long": {
+        "record_id": "response-027",
+        "subject_id": "person-027",
+        "version": "long",
+        "group": "urban",
+        "collected_at": "2026-07-10",
+        "analysis_consent": true,
+        "displayed": [
+          "contact",
+          "travel",
+          "digital",
+          "availability"
+        ],
+        "answers": {
+          "contact": 3,
+          "travel": 1,
+          "digital": 1,
+          "availability": 2
+        },
+        "branch": "full",
+        "confirmed_demand": {
+          "value": false,
+          "known_at": "2026-07-30"
+        }
+      },
+      "short": {
+        "record_id": "bridge-short-27",
+        "subject_id": "person-027",
+        "version": "short",
+        "group": "urban",
+        "collected_at": "2026-07-10",
+        "analysis_consent": true,
+        "displayed": [
+          "contact",
+          "travel",
+          "digital"
+        ],
+        "answers": {
+          "contact": 3,
+          "travel": 1,
+          "digital": 1
+        },
+        "branch": "full",
+        "confirmed_demand": {
+          "value": false,
+          "known_at": "2026-07-30"
+        }
+      },
+      "recruitment": "service-desk"
+    },
+    {
+      "bridge_id": "bridge-28",
+      "long": {
+        "record_id": "response-028",
+        "subject_id": "person-028",
+        "version": "long",
+        "group": "urban",
+        "collected_at": "2026-07-10",
+        "analysis_consent": true,
+        "displayed": [
+          "contact",
+          "travel",
+          "digital",
+          "availability"
+        ],
+        "answers": {
+          "contact": 0,
+          "travel": 2,
+          "digital": 1,
+          "availability": 3
+        },
+        "branch": "full",
+        "confirmed_demand": {
+          "value": true,
+          "known_at": "2026-07-30"
+        }
+      },
+      "short": {
+        "record_id": "bridge-short-28",
+        "subject_id": "person-028",
+        "version": "short",
+        "group": "urban",
+        "collected_at": "2026-07-10",
+        "analysis_consent": true,
+        "displayed": [
+          "contact",
+          "travel",
+          "digital"
+        ],
+        "answers": {
+          "contact": 0,
+          "travel": 2,
+          "digital": 1
+        },
+        "branch": "full",
+        "confirmed_demand": {
+          "value": true,
+          "known_at": "2026-07-30"
+        }
+      },
+      "recruitment": "service-desk"
+    },
+    {
+      "bridge_id": "bridge-29",
+      "long": {
+        "record_id": "response-029",
+        "subject_id": "person-029",
+        "version": "long",
+        "group": "urban",
+        "collected_at": "2026-07-10",
+        "analysis_consent": true,
+        "displayed": [
+          "contact",
+          "travel",
+          "digital",
+          "availability"
+        ],
+        "answers": {
+          "contact": 1,
+          "travel": 2,
+          "digital": 1,
+          "availability": 3
+        },
+        "branch": "full",
+        "confirmed_demand": {
+          "value": true,
+          "known_at": "2026-07-30"
+        }
+      },
+      "short": {
+        "record_id": "bridge-short-29",
+        "subject_id": "person-029",
+        "version": "short",
+        "group": "urban",
+        "collected_at": "2026-07-10",
+        "analysis_consent": true,
+        "displayed": [
+          "contact",
+          "travel",
+          "digital"
+        ],
+        "answers": {
+          "contact": 1,
+          "travel": 2,
+          "digital": 1
+        },
+        "branch": "full",
+        "confirmed_demand": {
+          "value": true,
+          "known_at": "2026-07-30"
+        }
+      },
+      "recruitment": "service-desk"
+    },
+    {
+      "bridge_id": "bridge-30",
+      "long": {
+        "record_id": "response-030",
+        "subject_id": "person-030",
+        "version": "long",
+        "group": "remote",
+        "collected_at": "2026-07-11",
+        "analysis_consent": true,
+        "displayed": [
+          "contact",
+          "travel",
+          "digital",
+          "availability"
+        ],
+        "answers": {
+          "contact": 2,
+          "travel": 3,
+          "digital": 2,
+          "availability": 3
+        },
+        "branch": "full",
+        "confirmed_demand": {
+          "value": false,
+          "known_at": "2026-07-31"
+        }
+      },
+      "short": {
+        "record_id": "bridge-short-30",
+        "subject_id": "person-030",
+        "version": "short",
+        "group": "remote",
+        "collected_at": "2026-07-11",
+        "analysis_consent": true,
+        "displayed": [
+          "contact",
+          "travel",
+          "digital"
+        ],
+        "answers": {
+          "contact": 3,
+          "travel": 3,
+          "digital": 2
+        },
+        "branch": "full",
+        "confirmed_demand": {
+          "value": false,
+          "known_at": "2026-07-31"
+        }
+      },
+      "recruitment": "service-desk"
+    },
+    {
+      "bridge_id": "bridge-31",
+      "long": {
+        "record_id": "response-031",
+        "subject_id": "person-031",
+        "version": "long",
+        "group": "urban",
+        "collected_at": "2026-07-11",
+        "analysis_consent": true,
+        "displayed": [
+          "contact",
+          "travel",
+          "digital",
+          "availability"
+        ],
+        "answers": {
+          "contact": 3,
+          "travel": 3,
+          "digital": 2,
+          "availability": 3
+        },
+        "branch": "full",
+        "confirmed_demand": {
+          "value": true,
+          "known_at": "2026-07-31"
+        }
+      },
+      "short": {
+        "record_id": "bridge-short-31",
+        "subject_id": "person-031",
+        "version": "short",
+        "group": "urban",
+        "collected_at": "2026-07-11",
+        "analysis_consent": true,
+        "displayed": [
+          "contact",
+          "travel",
+          "digital"
+        ],
+        "answers": {
+          "contact": 3,
+          "travel": 3,
+          "digital": 2
+        },
+        "branch": "full",
+        "confirmed_demand": {
+          "value": true,
+          "known_at": "2026-07-31"
+        }
+      },
+      "recruitment": "service-desk"
+    },
+    {
+      "bridge_id": "bridge-32",
+      "long": {
+        "record_id": "response-032",
+        "subject_id": "person-032",
+        "version": "long",
+        "group": "urban",
+        "collected_at": "2026-07-11",
+        "analysis_consent": true,
+        "displayed": [
+          "contact",
+          "travel",
+          "digital",
+          "availability"
+        ],
+        "answers": {
+          "contact": 0,
+          "travel": 0,
+          "digital": 2,
+          "availability": 0
+        },
+        "branch": "full",
+        "confirmed_demand": {
+          "value": true,
+          "known_at": "2026-07-31"
+        }
+      },
+      "short": {
+        "record_id": "bridge-short-32",
+        "subject_id": "person-032",
+        "version": "short",
+        "group": "urban",
+        "collected_at": "2026-07-11",
+        "analysis_consent": true,
+        "displayed": [
+          "contact",
+          "travel",
+          "digital"
+        ],
+        "answers": {
+          "contact": 0,
+          "travel": 0,
+          "digital": 2
+        },
+        "branch": "full",
+        "confirmed_demand": {
+          "value": true,
+          "known_at": "2026-07-31"
+        }
+      },
+      "recruitment": "service-desk"
+    },
+    {
+      "bridge_id": "bridge-33",
+      "long": {
+        "record_id": "response-033",
+        "subject_id": "person-033",
+        "version": "long",
+        "group": "urban",
+        "collected_at": "2026-07-12",
+        "analysis_consent": true,
+        "displayed": [
+          "contact",
+          "travel",
+          "digital",
+          "availability"
+        ],
+        "answers": {
+          "contact": 1,
+          "travel": 0,
+          "digital": 3,
+          "availability": 0
+        },
+        "branch": "full",
+        "confirmed_demand": {
+          "value": false,
+          "known_at": "2026-08-01"
+        }
+      },
+      "short": {
+        "record_id": "bridge-short-33",
+        "subject_id": "person-033",
+        "version": "short",
+        "group": "urban",
+        "collected_at": "2026-07-12",
+        "analysis_consent": true,
+        "displayed": [
+          "contact",
+          "travel",
+          "digital"
+        ],
+        "answers": {
+          "contact": 1,
+          "travel": 0,
+          "digital": 3
+        },
+        "branch": "full",
+        "confirmed_demand": {
+          "value": false,
+          "known_at": "2026-08-01"
+        }
+      },
+      "recruitment": "service-desk"
+    },
+    {
+      "bridge_id": "bridge-34",
+      "long": {
+        "record_id": "response-034",
+        "subject_id": "person-034",
+        "version": "long",
+        "group": "urban",
+        "collected_at": "2026-07-12",
+        "analysis_consent": false,
+        "displayed": [
+          "contact",
+          "travel",
+          "digital",
+          "availability"
+        ],
+        "answers": {
+          "contact": 2,
+          "travel": 1,
+          "digital": 3,
+          "availability": 0
+        },
+        "branch": "full",
+        "confirmed_demand": {
+          "value": true,
+          "known_at": "2026-08-01"
+        }
+      },
+      "short": {
+        "record_id": "bridge-short-34",
+        "subject_id": "person-034",
+        "version": "short",
+        "group": "urban",
+        "collected_at": "2026-07-12",
+        "analysis_consent": false,
+        "displayed": [
+          "contact",
+          "travel",
+          "digital"
+        ],
+        "answers": {
+          "contact": 2,
+          "travel": 1,
+          "digital": 3
+        },
+        "branch": "full",
+        "confirmed_demand": {
+          "value": true,
+          "known_at": "2026-08-01"
+        }
+      },
+      "recruitment": "service-desk"
+    },
+    {
+      "bridge_id": "bridge-35",
+      "long": {
+        "record_id": "response-035",
+        "subject_id": "person-035",
+        "version": "long",
+        "group": "remote",
+        "collected_at": "2026-07-12",
+        "analysis_consent": true,
+        "displayed": [
+          "contact",
+          "travel",
+          "digital",
+          "availability"
+        ],
+        "answers": {
+          "contact": 3,
+          "travel": 1,
+          "digital": 3,
+          "availability": 0
+        },
+        "branch": "full",
+        "confirmed_demand": {
+          "value": true,
+          "known_at": "2026-08-01"
+        }
+      },
+      "short": {
+        "record_id": "bridge-short-35",
+        "subject_id": "person-035",
+        "version": "short",
+        "group": "remote",
+        "collected_at": "2026-07-12",
+        "analysis_consent": true,
+        "displayed": [
+          "contact",
+          "travel",
+          "digital"
+        ],
+        "answers": {
+          "contact": 3,
+          "travel": 1,
+          "digital": 3
+        },
+        "branch": "full",
+        "confirmed_demand": {
+          "value": true,
+          "known_at": "2026-08-01"
+        }
+      },
+      "recruitment": "service-desk"
+    }
+  ],
+  "responses": [
+    {
+      "record_id": "response-000",
+      "subject_id": "person-000",
+      "version": "long",
+      "group": "remote",
+      "collected_at": "2026-07-01",
+      "analysis_consent": false,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital",
+        "availability"
+      ],
+      "answers": {
+        "contact": 0,
+        "travel": 0,
+        "digital": null,
+        "availability": 0
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": false,
+        "known_at": "2026-07-21"
+      }
+    },
+    {
+      "record_id": "response-001",
+      "subject_id": "person-001",
+      "version": "long",
+      "group": "urban",
+      "collected_at": "2026-07-01",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital",
+        "availability"
+      ],
+      "answers": {
+        "contact": 1,
+        "travel": 0,
+        "digital": 0,
+        "availability": 0
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-07-21"
+      }
+    },
+    {
+      "record_id": "response-002",
+      "subject_id": "person-002",
+      "version": "long",
+      "group": "urban",
+      "collected_at": "2026-07-01",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital",
+        "availability"
+      ],
+      "answers": {
+        "contact": 2,
+        "travel": 1,
+        "digital": 0,
+        "availability": 0
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-07-21"
+      }
+    },
+    {
+      "record_id": "response-003",
+      "subject_id": "person-003",
+      "version": "long",
+      "group": "urban",
+      "collected_at": "2026-07-02",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital",
+        "availability"
+      ],
+      "answers": {
+        "contact": 3,
+        "travel": 1,
+        "digital": 1,
+        "availability": 0
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": false,
+        "known_at": "2026-07-22"
+      }
+    },
+    {
+      "record_id": "response-004",
+      "subject_id": "person-004",
+      "version": "long",
+      "group": "urban",
+      "collected_at": "2026-07-02",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital",
+        "availability"
+      ],
+      "answers": {
+        "contact": 0,
+        "travel": 2,
+        "digital": 1,
+        "availability": 1
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-07-22"
+      }
+    },
+    {
+      "record_id": "response-005",
+      "subject_id": "person-005",
+      "version": "long",
+      "group": "remote",
+      "collected_at": "2026-07-02",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital",
+        "availability"
+      ],
+      "answers": {
+        "contact": 1,
+        "travel": 2,
+        "digital": 1,
+        "availability": 1
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-07-22"
+      }
+    },
+    {
+      "record_id": "response-006",
+      "subject_id": "person-006",
+      "version": "long",
+      "group": "urban",
+      "collected_at": "2026-07-03",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital",
+        "availability"
+      ],
+      "answers": {
+        "contact": 2,
+        "travel": 3,
+        "digital": 2,
+        "availability": 1
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": false,
+        "known_at": "2026-07-23"
+      }
+    },
+    {
+      "record_id": "response-007",
+      "subject_id": "person-007",
+      "version": "long",
+      "group": "urban",
+      "collected_at": "2026-07-03",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital",
+        "availability"
+      ],
+      "answers": {
+        "contact": 3,
+        "travel": 3,
+        "digital": 2,
+        "availability": 1
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-07-23"
+      }
+    },
+    {
+      "record_id": "response-008",
+      "subject_id": "person-008",
+      "version": "long",
+      "group": "urban",
+      "collected_at": "2026-07-03",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital",
+        "availability"
+      ],
+      "answers": {
+        "contact": 0,
+        "travel": 0,
+        "digital": 2,
+        "availability": 2
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-07-23"
+      }
+    },
+    {
+      "record_id": "response-009",
+      "subject_id": "person-009",
+      "version": "long",
+      "group": "urban",
+      "collected_at": "2026-07-04",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital",
+        "availability"
+      ],
+      "answers": {
+        "contact": 1,
+        "travel": 0,
+        "digital": 3,
+        "availability": 2
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": false,
+        "known_at": "2026-07-24"
+      }
+    },
+    {
+      "record_id": "response-010",
+      "subject_id": "person-010",
+      "version": "long",
+      "group": "remote",
+      "collected_at": "2026-07-04",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital",
+        "availability"
+      ],
+      "answers": {
+        "contact": 2,
+        "travel": 1,
+        "digital": 3,
+        "availability": 2
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-07-24"
+      }
+    },
+    {
+      "record_id": "response-011",
+      "subject_id": "person-011",
+      "version": "long",
+      "group": "urban",
+      "collected_at": "2026-07-04",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital",
+        "availability"
+      ],
+      "answers": {
+        "contact": 3,
+        "travel": 1,
+        "digital": 3,
+        "availability": 2
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-07-24"
+      }
+    },
+    {
+      "record_id": "response-012",
+      "subject_id": "person-012",
+      "version": "long",
+      "group": "urban",
+      "collected_at": "2026-07-05",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital",
+        "availability"
+      ],
+      "answers": {
+        "contact": 0,
+        "travel": 2,
+        "digital": 0,
+        "availability": 3
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": false,
+        "known_at": "2026-07-25"
+      }
+    },
+    {
+      "record_id": "response-013",
+      "subject_id": "person-013",
+      "version": "long",
+      "group": "urban",
+      "collected_at": "2026-07-05",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital",
+        "availability"
+      ],
+      "answers": {
+        "contact": 1,
+        "travel": 2,
+        "digital": null,
+        "availability": 3
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-07-25"
+      }
+    },
+    {
+      "record_id": "response-014",
+      "subject_id": "person-014",
+      "version": "long",
+      "group": "urban",
+      "collected_at": "2026-07-05",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital",
+        "availability"
+      ],
+      "answers": {
+        "contact": 2,
+        "travel": 3,
+        "digital": 0,
+        "availability": 3
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-07-25"
+      }
+    },
+    {
+      "record_id": "response-015",
+      "subject_id": "person-015",
+      "version": "long",
+      "group": "remote",
+      "collected_at": "2026-07-06",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital",
+        "availability"
+      ],
+      "answers": {
+        "contact": 3,
+        "travel": 3,
+        "digital": 1,
+        "availability": 3
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": false,
+        "known_at": "2026-07-26"
+      }
+    },
+    {
+      "record_id": "response-016",
+      "subject_id": "person-016",
+      "version": "long",
+      "group": "urban",
+      "collected_at": "2026-07-06",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital",
+        "availability"
+      ],
+      "answers": {
+        "contact": 0,
+        "travel": 0,
+        "digital": 1,
+        "availability": 0
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-07-26"
+      }
+    },
+    {
+      "record_id": "response-017",
+      "subject_id": "person-017",
+      "version": "long",
+      "group": "urban",
+      "collected_at": "2026-07-06",
+      "analysis_consent": false,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital",
+        "availability"
+      ],
+      "answers": {
+        "contact": 1,
+        "travel": 0,
+        "digital": 1,
+        "availability": 0
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-07-26"
+      }
+    },
+    {
+      "record_id": "response-018",
+      "subject_id": "person-018",
+      "version": "long",
+      "group": "urban",
+      "collected_at": "2026-07-07",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital",
+        "availability"
+      ],
+      "answers": {
+        "contact": 2,
+        "travel": 1,
+        "digital": 2,
+        "availability": 0
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": false,
+        "known_at": "2026-07-27"
+      }
+    },
+    {
+      "record_id": "response-019",
+      "subject_id": "person-019",
+      "version": "long",
+      "group": "urban",
+      "collected_at": "2026-07-07",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital",
+        "availability"
+      ],
+      "answers": {
+        "contact": 3,
+        "travel": 1,
+        "digital": 2,
+        "availability": 0
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-07-27"
+      }
+    },
+    {
+      "record_id": "response-020",
+      "subject_id": "person-020",
+      "version": "long",
+      "group": "remote",
+      "collected_at": "2026-07-07",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital",
+        "availability"
+      ],
+      "answers": {
+        "contact": 0,
+        "travel": 2,
+        "digital": 2,
+        "availability": 1
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-07-27"
+      }
+    },
+    {
+      "record_id": "response-021",
+      "subject_id": "person-021",
+      "version": "long",
+      "group": "urban",
+      "collected_at": "2026-07-08",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital",
+        "availability"
+      ],
+      "answers": {
+        "contact": 1,
+        "travel": 2,
+        "digital": 3,
+        "availability": 1
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": false,
+        "known_at": "2026-07-28"
+      }
+    },
+    {
+      "record_id": "response-022",
+      "subject_id": "person-022",
+      "version": "long",
+      "group": "urban",
+      "collected_at": "2026-07-08",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital",
+        "availability"
+      ],
+      "answers": {
+        "contact": 2,
+        "travel": 3,
+        "digital": 3,
+        "availability": 1
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-07-28"
+      }
+    },
+    {
+      "record_id": "response-023",
+      "subject_id": "person-023",
+      "version": "long",
+      "group": "urban",
+      "collected_at": "2026-07-08",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital",
+        "availability"
+      ],
+      "answers": {
+        "contact": 3,
+        "travel": 3,
+        "digital": 3,
+        "availability": 1
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-07-28"
+      }
+    },
+    {
+      "record_id": "response-024",
+      "subject_id": "person-024",
+      "version": "long",
+      "group": "urban",
+      "collected_at": "2026-07-09",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital",
+        "availability"
+      ],
+      "answers": {
+        "contact": 0,
+        "travel": 0,
+        "digital": 0,
+        "availability": 2
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": false,
+        "known_at": "2026-07-29"
+      }
+    },
+    {
+      "record_id": "response-025",
+      "subject_id": "person-025",
+      "version": "long",
+      "group": "remote",
+      "collected_at": "2026-07-09",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital",
+        "availability"
+      ],
+      "answers": {
+        "contact": 1,
+        "travel": 0,
+        "digital": 0,
+        "availability": 2
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-07-29"
+      }
+    },
+    {
+      "record_id": "response-026",
+      "subject_id": "person-026",
+      "version": "long",
+      "group": "urban",
+      "collected_at": "2026-07-09",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital",
+        "availability"
+      ],
+      "answers": {
+        "contact": 2,
+        "travel": 1,
+        "digital": null,
+        "availability": 2
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-07-29"
+      }
+    },
+    {
+      "record_id": "response-027",
+      "subject_id": "person-027",
+      "version": "long",
+      "group": "urban",
+      "collected_at": "2026-07-10",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital",
+        "availability"
+      ],
+      "answers": {
+        "contact": 3,
+        "travel": 1,
+        "digital": 1,
+        "availability": 2
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": false,
+        "known_at": "2026-07-30"
+      }
+    },
+    {
+      "record_id": "response-028",
+      "subject_id": "person-028",
+      "version": "long",
+      "group": "urban",
+      "collected_at": "2026-07-10",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital",
+        "availability"
+      ],
+      "answers": {
+        "contact": 0,
+        "travel": 2,
+        "digital": 1,
+        "availability": 3
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-07-30"
+      }
+    },
+    {
+      "record_id": "response-029",
+      "subject_id": "person-029",
+      "version": "long",
+      "group": "urban",
+      "collected_at": "2026-07-10",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital",
+        "availability"
+      ],
+      "answers": {
+        "contact": 1,
+        "travel": 2,
+        "digital": 1,
+        "availability": 3
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-07-30"
+      }
+    },
+    {
+      "record_id": "response-030",
+      "subject_id": "person-030",
+      "version": "long",
+      "group": "remote",
+      "collected_at": "2026-07-11",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital",
+        "availability"
+      ],
+      "answers": {
+        "contact": 2,
+        "travel": 3,
+        "digital": 2,
+        "availability": 3
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": false,
+        "known_at": "2026-07-31"
+      }
+    },
+    {
+      "record_id": "response-031",
+      "subject_id": "person-031",
+      "version": "long",
+      "group": "urban",
+      "collected_at": "2026-07-11",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital",
+        "availability"
+      ],
+      "answers": {
+        "contact": 3,
+        "travel": 3,
+        "digital": 2,
+        "availability": 3
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-07-31"
+      }
+    },
+    {
+      "record_id": "response-032",
+      "subject_id": "person-032",
+      "version": "long",
+      "group": "urban",
+      "collected_at": "2026-07-11",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital",
+        "availability"
+      ],
+      "answers": {
+        "contact": 0,
+        "travel": 0,
+        "digital": 2,
+        "availability": 0
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-07-31"
+      }
+    },
+    {
+      "record_id": "response-033",
+      "subject_id": "person-033",
+      "version": "long",
+      "group": "urban",
+      "collected_at": "2026-07-12",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital",
+        "availability"
+      ],
+      "answers": {
+        "contact": 1,
+        "travel": 0,
+        "digital": 3,
+        "availability": 0
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": false,
+        "known_at": "2026-08-01"
+      }
+    },
+    {
+      "record_id": "response-034",
+      "subject_id": "person-034",
+      "version": "long",
+      "group": "urban",
+      "collected_at": "2026-07-12",
+      "analysis_consent": false,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital",
+        "availability"
+      ],
+      "answers": {
+        "contact": 2,
+        "travel": 1,
+        "digital": 3,
+        "availability": 0
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-08-01"
+      }
+    },
+    {
+      "record_id": "response-035",
+      "subject_id": "person-035",
+      "version": "long",
+      "group": "remote",
+      "collected_at": "2026-07-12",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital",
+        "availability"
+      ],
+      "answers": {
+        "contact": 3,
+        "travel": 1,
+        "digital": 3,
+        "availability": 0
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-08-01"
+      }
+    },
+    {
+      "record_id": "response-036",
+      "subject_id": "person-036",
+      "version": "long",
+      "group": "urban",
+      "collected_at": "2026-07-13",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital",
+        "availability"
+      ],
+      "answers": {
+        "contact": 0,
+        "travel": 2,
+        "digital": 0,
+        "availability": 1
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": false,
+        "known_at": "2026-08-02"
+      }
+    },
+    {
+      "record_id": "response-037",
+      "subject_id": "person-037",
+      "version": "long",
+      "group": "urban",
+      "collected_at": "2026-07-13",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital",
+        "availability"
+      ],
+      "answers": {
+        "contact": 1,
+        "travel": 2,
+        "digital": 0,
+        "availability": 1
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-08-02"
+      }
+    },
+    {
+      "record_id": "response-038",
+      "subject_id": "person-038",
+      "version": "long",
+      "group": "urban",
+      "collected_at": "2026-07-13",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital",
+        "availability"
+      ],
+      "answers": {
+        "contact": 2,
+        "travel": 3,
+        "digital": 0,
+        "availability": 1
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-08-02"
+      }
+    },
+    {
+      "record_id": "response-039",
+      "subject_id": "person-039",
+      "version": "long",
+      "group": "urban",
+      "collected_at": "2026-07-14",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital",
+        "availability"
+      ],
+      "answers": {
+        "contact": 3,
+        "travel": 3,
+        "digital": null,
+        "availability": 1
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": false,
+        "known_at": "2026-08-03"
+      }
+    },
+    {
+      "record_id": "response-040",
+      "subject_id": "person-040",
+      "version": "long",
+      "group": "remote",
+      "collected_at": "2026-07-14",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital",
+        "availability"
+      ],
+      "answers": {
+        "contact": 0,
+        "travel": 0,
+        "digital": 1,
+        "availability": 2
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-08-03"
+      }
+    },
+    {
+      "record_id": "response-041",
+      "subject_id": "person-041",
+      "version": "long",
+      "group": "urban",
+      "collected_at": "2026-07-14",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital",
+        "availability"
+      ],
+      "answers": {
+        "contact": 1,
+        "travel": 0,
+        "digital": 1,
+        "availability": 2
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-08-03"
+      }
+    },
+    {
+      "record_id": "response-042",
+      "subject_id": "person-042",
+      "version": "long",
+      "group": "urban",
+      "collected_at": "2026-07-15",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital",
+        "availability"
+      ],
+      "answers": {
+        "contact": 2,
+        "travel": 1,
+        "digital": 2,
+        "availability": 2
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": false,
+        "known_at": "2026-08-04"
+      }
+    },
+    {
+      "record_id": "response-043",
+      "subject_id": "person-043",
+      "version": "long",
+      "group": "urban",
+      "collected_at": "2026-07-15",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital",
+        "availability"
+      ],
+      "answers": {
+        "contact": 3,
+        "travel": 1,
+        "digital": 2,
+        "availability": 2
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-08-04"
+      }
+    },
+    {
+      "record_id": "response-044",
+      "subject_id": "person-044",
+      "version": "long",
+      "group": "urban",
+      "collected_at": "2026-07-15",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital",
+        "availability"
+      ],
+      "answers": {
+        "contact": 0,
+        "travel": 2,
+        "digital": 2,
+        "availability": 3
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-08-04"
+      }
+    },
+    {
+      "record_id": "response-045",
+      "subject_id": "person-045",
+      "version": "long",
+      "group": "remote",
+      "collected_at": "2026-07-16",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital",
+        "availability"
+      ],
+      "answers": {
+        "contact": 1,
+        "travel": 2,
+        "digital": 3,
+        "availability": 3
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": false,
+        "known_at": "2026-08-05"
+      }
+    },
+    {
+      "record_id": "response-046",
+      "subject_id": "person-046",
+      "version": "long",
+      "group": "urban",
+      "collected_at": "2026-07-16",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital",
+        "availability"
+      ],
+      "answers": {
+        "contact": 2,
+        "travel": 3,
+        "digital": 3,
+        "availability": 3
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-08-05"
+      }
+    },
+    {
+      "record_id": "response-047",
+      "subject_id": "person-047",
+      "version": "long",
+      "group": "urban",
+      "collected_at": "2026-07-16",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital",
+        "availability"
+      ],
+      "answers": {
+        "contact": 3,
+        "travel": 3,
+        "digital": 3,
+        "availability": 3
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-08-05"
+      }
+    },
+    {
+      "record_id": "response-048",
+      "subject_id": "person-048",
+      "version": "long",
+      "group": "urban",
+      "collected_at": "2026-07-17",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital",
+        "availability"
+      ],
+      "answers": {
+        "contact": 0,
+        "travel": 0,
+        "digital": 0,
+        "availability": 0
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": false,
+        "known_at": "2026-08-06"
+      }
+    },
+    {
+      "record_id": "response-049",
+      "subject_id": "person-049",
+      "version": "long",
+      "group": "urban",
+      "collected_at": "2026-07-17",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital",
+        "availability"
+      ],
+      "answers": {
+        "contact": 1,
+        "travel": 0,
+        "digital": 0,
+        "availability": 0
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-08-06"
+      }
+    },
+    {
+      "record_id": "response-050",
+      "subject_id": "person-050",
+      "version": "long",
+      "group": "remote",
+      "collected_at": "2026-07-17",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital",
+        "availability"
+      ],
+      "answers": {
+        "contact": 2,
+        "travel": 1,
+        "digital": 0,
+        "availability": 0
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-08-06"
+      }
+    },
+    {
+      "record_id": "response-051",
+      "subject_id": "person-051",
+      "version": "long",
+      "group": "urban",
+      "collected_at": "2026-07-18",
+      "analysis_consent": false,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital",
+        "availability"
+      ],
+      "answers": {
+        "contact": 3,
+        "travel": 1,
+        "digital": 1,
+        "availability": 0
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": false,
+        "known_at": "2026-08-07"
+      }
+    },
+    {
+      "record_id": "response-052",
+      "subject_id": "person-052",
+      "version": "long",
+      "group": "urban",
+      "collected_at": "2026-07-18",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital",
+        "availability"
+      ],
+      "answers": {
+        "contact": 0,
+        "travel": 2,
+        "digital": null,
+        "availability": 1
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-08-07"
+      }
+    },
+    {
+      "record_id": "response-053",
+      "subject_id": "person-053",
+      "version": "long",
+      "group": "urban",
+      "collected_at": "2026-07-18",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital",
+        "availability"
+      ],
+      "answers": {
+        "contact": 1,
+        "travel": 2,
+        "digital": 1,
+        "availability": 1
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-08-07"
+      }
+    },
+    {
+      "record_id": "response-054",
+      "subject_id": "person-054",
+      "version": "long",
+      "group": "urban",
+      "collected_at": "2026-07-19",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital",
+        "availability"
+      ],
+      "answers": {
+        "contact": 2,
+        "travel": 3,
+        "digital": 2,
+        "availability": 1
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": false,
+        "known_at": "2026-08-08"
+      }
+    },
+    {
+      "record_id": "response-055",
+      "subject_id": "person-055",
+      "version": "long",
+      "group": "remote",
+      "collected_at": "2026-07-19",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital",
+        "availability"
+      ],
+      "answers": {
+        "contact": 3,
+        "travel": 3,
+        "digital": 2,
+        "availability": 1
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-08-08"
+      }
+    },
+    {
+      "record_id": "response-056",
+      "subject_id": "person-056",
+      "version": "long",
+      "group": "urban",
+      "collected_at": "2026-07-19",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital",
+        "availability"
+      ],
+      "answers": {
+        "contact": 0,
+        "travel": 0,
+        "digital": 2,
+        "availability": 2
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-08-08"
+      }
+    },
+    {
+      "record_id": "response-057",
+      "subject_id": "person-057",
+      "version": "long",
+      "group": "urban",
+      "collected_at": "2026-07-20",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital",
+        "availability"
+      ],
+      "answers": {
+        "contact": 1,
+        "travel": 0,
+        "digital": 3,
+        "availability": 2
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": false,
+        "known_at": "2026-08-09"
+      }
+    },
+    {
+      "record_id": "response-058",
+      "subject_id": "person-058",
+      "version": "long",
+      "group": "urban",
+      "collected_at": "2026-07-20",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital",
+        "availability"
+      ],
+      "answers": {
+        "contact": 2,
+        "travel": 1,
+        "digital": 3,
+        "availability": 2
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-08-09"
+      }
+    },
+    {
+      "record_id": "response-059",
+      "subject_id": "person-059",
+      "version": "long",
+      "group": "urban",
+      "collected_at": "2026-07-20",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital",
+        "availability"
+      ],
+      "answers": {
+        "contact": 3,
+        "travel": 1,
+        "digital": 3,
+        "availability": 2
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-08-09"
+      }
+    },
+    {
+      "record_id": "response-060",
+      "subject_id": "person-060",
+      "version": "long",
+      "group": "remote",
+      "collected_at": "2026-07-21",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital",
+        "availability"
+      ],
+      "answers": {
+        "contact": 0,
+        "travel": 2,
+        "digital": 0,
+        "availability": 3
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": false,
+        "known_at": "2026-08-10"
+      }
+    },
+    {
+      "record_id": "response-061",
+      "subject_id": "person-061",
+      "version": "long",
+      "group": "urban",
+      "collected_at": "2026-07-21",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital",
+        "availability"
+      ],
+      "answers": {
+        "contact": 1,
+        "travel": 2,
+        "digital": 0,
+        "availability": 3
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-08-10"
+      }
+    },
+    {
+      "record_id": "response-062",
+      "subject_id": "person-062",
+      "version": "long",
+      "group": "urban",
+      "collected_at": "2026-07-21",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital",
+        "availability"
+      ],
+      "answers": {
+        "contact": 2,
+        "travel": 3,
+        "digital": 0,
+        "availability": 3
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-08-10"
+      }
+    },
+    {
+      "record_id": "response-063",
+      "subject_id": "person-063",
+      "version": "long",
+      "group": "urban",
+      "collected_at": "2026-07-22",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital",
+        "availability"
+      ],
+      "answers": {
+        "contact": 3,
+        "travel": 3,
+        "digital": 1,
+        "availability": 3
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": false,
+        "known_at": "2026-08-11"
+      }
+    },
+    {
+      "record_id": "response-064",
+      "subject_id": "person-064",
+      "version": "long",
+      "group": "urban",
+      "collected_at": "2026-07-22",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital",
+        "availability"
+      ],
+      "answers": {
+        "contact": 0,
+        "travel": 0,
+        "digital": 1,
+        "availability": 0
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-08-11"
+      }
+    },
+    {
+      "record_id": "response-065",
+      "subject_id": "person-065",
+      "version": "long",
+      "group": "remote",
+      "collected_at": "2026-07-22",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital",
+        "availability"
+      ],
+      "answers": {
+        "contact": 1,
+        "travel": 0,
+        "digital": null,
+        "availability": 0
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-08-11"
+      }
+    },
+    {
+      "record_id": "response-066",
+      "subject_id": "person-066",
+      "version": "long",
+      "group": "urban",
+      "collected_at": "2026-07-23",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital",
+        "availability"
+      ],
+      "answers": {
+        "contact": 2,
+        "travel": 1,
+        "digital": 2,
+        "availability": 0
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": false,
+        "known_at": "2026-08-12"
+      }
+    },
+    {
+      "record_id": "response-067",
+      "subject_id": "person-067",
+      "version": "long",
+      "group": "urban",
+      "collected_at": "2026-07-23",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital",
+        "availability"
+      ],
+      "answers": {
+        "contact": 3,
+        "travel": 1,
+        "digital": 2,
+        "availability": 0
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-08-12"
+      }
+    },
+    {
+      "record_id": "response-068",
+      "subject_id": "person-068",
+      "version": "long",
+      "group": "urban",
+      "collected_at": "2026-07-23",
+      "analysis_consent": false,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital",
+        "availability"
+      ],
+      "answers": {
+        "contact": 0,
+        "travel": 2,
+        "digital": 2,
+        "availability": 1
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-08-12"
+      }
+    },
+    {
+      "record_id": "response-069",
+      "subject_id": "person-069",
+      "version": "long",
+      "group": "urban",
+      "collected_at": "2026-07-24",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital",
+        "availability"
+      ],
+      "answers": {
+        "contact": 1,
+        "travel": 2,
+        "digital": 3,
+        "availability": 1
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": false,
+        "known_at": "2026-08-13"
+      }
+    },
+    {
+      "record_id": "response-070",
+      "subject_id": "person-070",
+      "version": "long",
+      "group": "remote",
+      "collected_at": "2026-07-24",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital",
+        "availability"
+      ],
+      "answers": {
+        "contact": 2,
+        "travel": 3,
+        "digital": 3,
+        "availability": 1
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-08-13"
+      }
+    },
+    {
+      "record_id": "response-071",
+      "subject_id": "person-071",
+      "version": "long",
+      "group": "urban",
+      "collected_at": "2026-07-24",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital",
+        "availability"
+      ],
+      "answers": {
+        "contact": 3,
+        "travel": 3,
+        "digital": 3,
+        "availability": 1
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-08-13"
+      }
+    },
+    {
+      "record_id": "response-072",
+      "subject_id": "person-072",
+      "version": "long",
+      "group": "urban",
+      "collected_at": "2026-07-25",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital",
+        "availability"
+      ],
+      "answers": {
+        "contact": 0,
+        "travel": 0,
+        "digital": 0,
+        "availability": 2
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": false,
+        "known_at": "2026-08-14"
+      }
+    },
+    {
+      "record_id": "response-073",
+      "subject_id": "person-073",
+      "version": "long",
+      "group": "urban",
+      "collected_at": "2026-07-25",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital",
+        "availability"
+      ],
+      "answers": {
+        "contact": 1,
+        "travel": 0,
+        "digital": 0,
+        "availability": 2
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-08-14"
+      }
+    },
+    {
+      "record_id": "response-074",
+      "subject_id": "person-074",
+      "version": "long",
+      "group": "urban",
+      "collected_at": "2026-07-25",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital",
+        "availability"
+      ],
+      "answers": {
+        "contact": 2,
+        "travel": 1,
+        "digital": 0,
+        "availability": 2
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-08-14"
+      }
+    },
+    {
+      "record_id": "response-075",
+      "subject_id": "person-075",
+      "version": "long",
+      "group": "remote",
+      "collected_at": "2026-07-26",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital",
+        "availability"
+      ],
+      "answers": {
+        "contact": 3,
+        "travel": 1,
+        "digital": 1,
+        "availability": 2
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": false,
+        "known_at": "2026-08-15"
+      }
+    },
+    {
+      "record_id": "response-076",
+      "subject_id": "person-076",
+      "version": "long",
+      "group": "urban",
+      "collected_at": "2026-07-26",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital",
+        "availability"
+      ],
+      "answers": {
+        "contact": 0,
+        "travel": 2,
+        "digital": 1,
+        "availability": 3
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-08-15"
+      }
+    },
+    {
+      "record_id": "response-077",
+      "subject_id": "person-077",
+      "version": "long",
+      "group": "urban",
+      "collected_at": "2026-07-26",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital",
+        "availability"
+      ],
+      "answers": {
+        "contact": 1,
+        "travel": 2,
+        "digital": 1,
+        "availability": 3
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-08-15"
+      }
+    },
+    {
+      "record_id": "response-078",
+      "subject_id": "person-078",
+      "version": "long",
+      "group": "urban",
+      "collected_at": "2026-07-27",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital",
+        "availability"
+      ],
+      "answers": {
+        "contact": 2,
+        "travel": 3,
+        "digital": null,
+        "availability": 3
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": false,
+        "known_at": "2026-08-16"
+      }
+    },
+    {
+      "record_id": "response-079",
+      "subject_id": "person-079",
+      "version": "long",
+      "group": "urban",
+      "collected_at": "2026-07-27",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital",
+        "availability"
+      ],
+      "answers": {
+        "contact": 3,
+        "travel": 3,
+        "digital": 2,
+        "availability": 3
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-08-16"
+      }
+    },
+    {
+      "record_id": "response-080",
+      "subject_id": "person-080",
+      "version": "long",
+      "group": "remote",
+      "collected_at": "2026-07-27",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital",
+        "availability"
+      ],
+      "answers": {
+        "contact": 0,
+        "travel": 0,
+        "digital": 2,
+        "availability": 0
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-08-16"
+      }
+    },
+    {
+      "record_id": "response-081",
+      "subject_id": "person-081",
+      "version": "long",
+      "group": "urban",
+      "collected_at": "2026-07-28",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital",
+        "availability"
+      ],
+      "answers": {
+        "contact": 1,
+        "travel": 0,
+        "digital": 3,
+        "availability": 0
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": false,
+        "known_at": "2026-08-17"
+      }
+    },
+    {
+      "record_id": "response-082",
+      "subject_id": "person-082",
+      "version": "long",
+      "group": "urban",
+      "collected_at": "2026-07-28",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital",
+        "availability"
+      ],
+      "answers": {
+        "contact": 2,
+        "travel": 1,
+        "digital": 3,
+        "availability": 0
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-08-17"
+      }
+    },
+    {
+      "record_id": "response-083",
+      "subject_id": "person-083",
+      "version": "long",
+      "group": "urban",
+      "collected_at": "2026-07-28",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital",
+        "availability"
+      ],
+      "answers": {
+        "contact": 3,
+        "travel": 1,
+        "digital": 3,
+        "availability": 0
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-08-17"
+      }
+    },
+    {
+      "record_id": "response-084",
+      "subject_id": "person-084",
+      "version": "long",
+      "group": "urban",
+      "collected_at": "2026-07-29",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital",
+        "availability"
+      ],
+      "answers": {
+        "contact": 0,
+        "travel": 2,
+        "digital": 0,
+        "availability": 1
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": false,
+        "known_at": "2026-08-18"
+      }
+    },
+    {
+      "record_id": "response-085",
+      "subject_id": "person-085",
+      "version": "long",
+      "group": "remote",
+      "collected_at": "2026-07-29",
+      "analysis_consent": false,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital",
+        "availability"
+      ],
+      "answers": {
+        "contact": 1,
+        "travel": 2,
+        "digital": 0,
+        "availability": 1
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-08-18"
+      }
+    },
+    {
+      "record_id": "response-086",
+      "subject_id": "person-086",
+      "version": "long",
+      "group": "urban",
+      "collected_at": "2026-07-29",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital",
+        "availability"
+      ],
+      "answers": {
+        "contact": 2,
+        "travel": 3,
+        "digital": 0,
+        "availability": 1
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-08-18"
+      }
+    },
+    {
+      "record_id": "response-087",
+      "subject_id": "person-087",
+      "version": "long",
+      "group": "urban",
+      "collected_at": "2026-07-30",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital",
+        "availability"
+      ],
+      "answers": {
+        "contact": 3,
+        "travel": 3,
+        "digital": 1,
+        "availability": 1
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": false,
+        "known_at": "2026-08-19"
+      }
+    },
+    {
+      "record_id": "response-088",
+      "subject_id": "person-088",
+      "version": "long",
+      "group": "urban",
+      "collected_at": "2026-07-30",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital",
+        "availability"
+      ],
+      "answers": {
+        "contact": 0,
+        "travel": 0,
+        "digital": 1,
+        "availability": 2
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-08-19"
+      }
+    },
+    {
+      "record_id": "response-089",
+      "subject_id": "person-089",
+      "version": "long",
+      "group": "urban",
+      "collected_at": "2026-07-30",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital",
+        "availability"
+      ],
+      "answers": {
+        "contact": 1,
+        "travel": 0,
+        "digital": 1,
+        "availability": 2
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-08-19"
+      }
+    },
+    {
+      "record_id": "response-090",
+      "subject_id": "person-090",
+      "version": "short",
+      "group": "remote",
+      "collected_at": "2026-07-31",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "digital"
+      ],
+      "answers": {
+        "contact": 3,
+        "digital": 2
+      },
+      "branch": "skip-travel",
+      "confirmed_demand": {
+        "value": false,
+        "known_at": "2026-08-20"
+      }
+    },
+    {
+      "record_id": "response-091",
+      "subject_id": "person-091",
+      "version": "short",
+      "group": "urban",
+      "collected_at": "2026-07-31",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital"
+      ],
+      "answers": {
+        "contact": 3,
+        "travel": 1,
+        "digital": null
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-08-20"
+      }
+    },
+    {
+      "record_id": "response-092",
+      "subject_id": "person-092",
+      "version": "short",
+      "group": "urban",
+      "collected_at": "2026-07-31",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital"
+      ],
+      "answers": {
+        "contact": 0,
+        "travel": 2,
+        "digital": 2
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-08-20"
+      }
+    },
+    {
+      "record_id": "response-093",
+      "subject_id": "person-093",
+      "version": "short",
+      "group": "urban",
+      "collected_at": "2026-08-01",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "digital"
+      ],
+      "answers": {
+        "contact": 1,
+        "digital": 3
+      },
+      "branch": "skip-travel",
+      "confirmed_demand": {
+        "value": false,
+        "known_at": "2026-08-21"
+      }
+    },
+    {
+      "record_id": "response-094",
+      "subject_id": "person-094",
+      "version": "short",
+      "group": "urban",
+      "collected_at": "2026-08-01",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital"
+      ],
+      "answers": {
+        "contact": 2,
+        "travel": 3,
+        "digital": 3
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-08-21"
+      }
+    },
+    {
+      "record_id": "response-095",
+      "subject_id": "person-095",
+      "version": "short",
+      "group": "remote",
+      "collected_at": "2026-08-01",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital"
+      ],
+      "answers": {
+        "contact": 3,
+        "travel": 3,
+        "digital": 3
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-08-21"
+      }
+    },
+    {
+      "record_id": "response-096",
+      "subject_id": "person-096",
+      "version": "short",
+      "group": "urban",
+      "collected_at": "2026-08-02",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "digital"
+      ],
+      "answers": {
+        "contact": 0,
+        "digital": 0
+      },
+      "branch": "skip-travel",
+      "confirmed_demand": {
+        "value": false,
+        "known_at": "2026-08-22"
+      }
+    },
+    {
+      "record_id": "response-097",
+      "subject_id": "person-097",
+      "version": "short",
+      "group": "urban",
+      "collected_at": "2026-08-02",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital"
+      ],
+      "answers": {
+        "contact": 1,
+        "travel": 0,
+        "digital": 0
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-08-22"
+      }
+    },
+    {
+      "record_id": "response-098",
+      "subject_id": "person-098",
+      "version": "short",
+      "group": "urban",
+      "collected_at": "2026-08-02",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital"
+      ],
+      "answers": {
+        "contact": 2,
+        "travel": 1,
+        "digital": 0
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-08-22"
+      }
+    },
+    {
+      "record_id": "response-099",
+      "subject_id": "person-099",
+      "version": "short",
+      "group": "urban",
+      "collected_at": "2026-08-03",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "digital"
+      ],
+      "answers": {
+        "contact": 3,
+        "digital": 1
+      },
+      "branch": "skip-travel",
+      "confirmed_demand": {
+        "value": false,
+        "known_at": "2026-08-23"
+      }
+    },
+    {
+      "record_id": "response-100",
+      "subject_id": "person-100",
+      "version": "short",
+      "group": "remote",
+      "collected_at": "2026-08-03",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital"
+      ],
+      "answers": {
+        "contact": 2,
+        "travel": 2,
+        "digital": 1
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-08-23"
+      }
+    },
+    {
+      "record_id": "response-101",
+      "subject_id": "person-101",
+      "version": "short",
+      "group": "urban",
+      "collected_at": "2026-08-03",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital"
+      ],
+      "answers": {
+        "contact": 1,
+        "travel": 2,
+        "digital": 1
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-08-23"
+      }
+    },
+    {
+      "record_id": "response-102",
+      "subject_id": "person-102",
+      "version": "short",
+      "group": "urban",
+      "collected_at": "2026-08-04",
+      "analysis_consent": false,
+      "displayed": [
+        "contact",
+        "digital"
+      ],
+      "answers": {
+        "contact": 2,
+        "digital": 2
+      },
+      "branch": "skip-travel",
+      "confirmed_demand": {
+        "value": false,
+        "known_at": "2026-08-24"
+      }
+    },
+    {
+      "record_id": "response-103",
+      "subject_id": "person-103",
+      "version": "short",
+      "group": "urban",
+      "collected_at": "2026-08-04",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital"
+      ],
+      "answers": {
+        "contact": 3,
+        "travel": 3,
+        "digital": 2
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-08-24"
+      }
+    },
+    {
+      "record_id": "response-104",
+      "subject_id": "person-104",
+      "version": "short",
+      "group": "urban",
+      "collected_at": "2026-08-04",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital"
+      ],
+      "answers": {
+        "contact": 0,
+        "travel": 0,
+        "digital": null
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-08-24"
+      }
+    },
+    {
+      "record_id": "response-105",
+      "subject_id": "person-105",
+      "version": "short",
+      "group": "remote",
+      "collected_at": "2026-08-05",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "digital"
+      ],
+      "answers": {
+        "contact": 3,
+        "digital": 3
+      },
+      "branch": "skip-travel",
+      "confirmed_demand": {
+        "value": false,
+        "known_at": "2026-08-25"
+      }
+    },
+    {
+      "record_id": "response-106",
+      "subject_id": "person-106",
+      "version": "short",
+      "group": "urban",
+      "collected_at": "2026-08-05",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital"
+      ],
+      "answers": {
+        "contact": 2,
+        "travel": 1,
+        "digital": 3
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-08-25"
+      }
+    },
+    {
+      "record_id": "response-107",
+      "subject_id": "person-107",
+      "version": "short",
+      "group": "urban",
+      "collected_at": "2026-08-05",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital"
+      ],
+      "answers": {
+        "contact": 3,
+        "travel": 1,
+        "digital": 3
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-08-25"
+      }
+    },
+    {
+      "record_id": "response-108",
+      "subject_id": "person-108",
+      "version": "short",
+      "group": "urban",
+      "collected_at": "2026-08-06",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "digital"
+      ],
+      "answers": {
+        "contact": 0,
+        "digital": 0
+      },
+      "branch": "skip-travel",
+      "confirmed_demand": {
+        "value": false,
+        "known_at": "2026-08-26"
+      }
+    },
+    {
+      "record_id": "response-109",
+      "subject_id": "person-109",
+      "version": "short",
+      "group": "urban",
+      "collected_at": "2026-08-06",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital"
+      ],
+      "answers": {
+        "contact": 1,
+        "travel": 2,
+        "digital": 0
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-08-26"
+      }
+    },
+    {
+      "record_id": "response-110",
+      "subject_id": "person-110",
+      "version": "short",
+      "group": "remote",
+      "collected_at": "2026-08-06",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital"
+      ],
+      "answers": {
+        "contact": 3,
+        "travel": 3,
+        "digital": 0
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-08-26"
+      }
+    },
+    {
+      "record_id": "response-111",
+      "subject_id": "person-111",
+      "version": "short",
+      "group": "urban",
+      "collected_at": "2026-08-07",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "digital"
+      ],
+      "answers": {
+        "contact": 3,
+        "digital": 1
+      },
+      "branch": "skip-travel",
+      "confirmed_demand": {
+        "value": false,
+        "known_at": "2026-08-27"
+      }
+    },
+    {
+      "record_id": "response-112",
+      "subject_id": "person-112",
+      "version": "short",
+      "group": "urban",
+      "collected_at": "2026-08-07",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital"
+      ],
+      "answers": {
+        "contact": 0,
+        "travel": 0,
+        "digital": 1
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-08-27"
+      }
+    },
+    {
+      "record_id": "response-113",
+      "subject_id": "person-113",
+      "version": "short",
+      "group": "urban",
+      "collected_at": "2026-08-07",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital"
+      ],
+      "answers": {
+        "contact": 1,
+        "travel": 0,
+        "digital": 1
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-08-27"
+      }
+    },
+    {
+      "record_id": "response-114",
+      "subject_id": "person-114",
+      "version": "short",
+      "group": "urban",
+      "collected_at": "2026-08-08",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "digital"
+      ],
+      "answers": {
+        "contact": 2,
+        "digital": 2
+      },
+      "branch": "skip-travel",
+      "confirmed_demand": {
+        "value": false,
+        "known_at": "2026-08-28"
+      }
+    },
+    {
+      "record_id": "response-115",
+      "subject_id": "person-115",
+      "version": "short",
+      "group": "remote",
+      "collected_at": "2026-08-08",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital"
+      ],
+      "answers": {
+        "contact": 3,
+        "travel": 1,
+        "digital": 2
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-08-28"
+      }
+    },
+    {
+      "record_id": "response-116",
+      "subject_id": "person-116",
+      "version": "short",
+      "group": "urban",
+      "collected_at": "2026-08-08",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital"
+      ],
+      "answers": {
+        "contact": 0,
+        "travel": 2,
+        "digital": 2
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-08-28"
+      }
+    },
+    {
+      "record_id": "response-117",
+      "subject_id": "person-117",
+      "version": "short",
+      "group": "urban",
+      "collected_at": "2026-08-09",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "digital"
+      ],
+      "answers": {
+        "contact": 1,
+        "digital": null
+      },
+      "branch": "skip-travel",
+      "confirmed_demand": {
+        "value": false,
+        "known_at": "2026-08-29"
+      }
+    },
+    {
+      "record_id": "response-118",
+      "subject_id": "person-118",
+      "version": "short",
+      "group": "urban",
+      "collected_at": "2026-08-09",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital"
+      ],
+      "answers": {
+        "contact": 2,
+        "travel": 3,
+        "digital": 3
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-08-29"
+      }
+    },
+    {
+      "record_id": "response-119",
+      "subject_id": "person-119",
+      "version": "short",
+      "group": "urban",
+      "collected_at": "2026-08-09",
+      "analysis_consent": false,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital"
+      ],
+      "answers": {
+        "contact": 3,
+        "travel": 3,
+        "digital": 3
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-08-29"
+      }
+    },
+    {
+      "record_id": "response-120",
+      "subject_id": "person-120",
+      "version": "short",
+      "group": "remote",
+      "collected_at": "2026-08-10",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "digital"
+      ],
+      "answers": {
+        "contact": 2,
+        "digital": 0
+      },
+      "branch": "skip-travel",
+      "confirmed_demand": {
+        "value": false,
+        "known_at": "2026-08-30"
+      }
+    },
+    {
+      "record_id": "response-121",
+      "subject_id": "person-121",
+      "version": "short",
+      "group": "urban",
+      "collected_at": "2026-08-10",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital"
+      ],
+      "answers": {
+        "contact": 1,
+        "travel": 0,
+        "digital": 0
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-08-30"
+      }
+    },
+    {
+      "record_id": "response-122",
+      "subject_id": "person-122",
+      "version": "short",
+      "group": "urban",
+      "collected_at": "2026-08-10",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital"
+      ],
+      "answers": {
+        "contact": 2,
+        "travel": 1,
+        "digital": 0
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-08-30"
+      }
+    },
+    {
+      "record_id": "response-123",
+      "subject_id": "person-123",
+      "version": "short",
+      "group": "urban",
+      "collected_at": "2026-08-11",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "digital"
+      ],
+      "answers": {
+        "contact": 3,
+        "digital": 1
+      },
+      "branch": "skip-travel",
+      "confirmed_demand": {
+        "value": false,
+        "known_at": "2026-08-31"
+      }
+    },
+    {
+      "record_id": "response-124",
+      "subject_id": "person-124",
+      "version": "short",
+      "group": "urban",
+      "collected_at": "2026-08-11",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital"
+      ],
+      "answers": {
+        "contact": 0,
+        "travel": 2,
+        "digital": 1
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-08-31"
+      }
+    },
+    {
+      "record_id": "response-125",
+      "subject_id": "person-125",
+      "version": "short",
+      "group": "remote",
+      "collected_at": "2026-08-11",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital"
+      ],
+      "answers": {
+        "contact": 3,
+        "travel": 2,
+        "digital": 1
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-08-31"
+      }
+    },
+    {
+      "record_id": "response-126",
+      "subject_id": "person-126",
+      "version": "short",
+      "group": "urban",
+      "collected_at": "2026-08-12",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "digital"
+      ],
+      "answers": {
+        "contact": 2,
+        "digital": 2
+      },
+      "branch": "skip-travel",
+      "confirmed_demand": {
+        "value": false,
+        "known_at": "2026-09-01"
+      }
+    },
+    {
+      "record_id": "response-127",
+      "subject_id": "person-127",
+      "version": "short",
+      "group": "urban",
+      "collected_at": "2026-08-12",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital"
+      ],
+      "answers": {
+        "contact": 3,
+        "travel": 3,
+        "digital": 2
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-09-01"
+      }
+    },
+    {
+      "record_id": "response-128",
+      "subject_id": "person-128",
+      "version": "short",
+      "group": "urban",
+      "collected_at": "2026-08-12",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital"
+      ],
+      "answers": {
+        "contact": 0,
+        "travel": 0,
+        "digital": 2
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-09-01"
+      }
+    },
+    {
+      "record_id": "response-129",
+      "subject_id": "person-129",
+      "version": "short",
+      "group": "urban",
+      "collected_at": "2026-08-13",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "digital"
+      ],
+      "answers": {
+        "contact": 1,
+        "digital": 3
+      },
+      "branch": "skip-travel",
+      "confirmed_demand": {
+        "value": false,
+        "known_at": "2026-09-02"
+      }
+    },
+    {
+      "record_id": "response-130",
+      "subject_id": "person-130",
+      "version": "short",
+      "group": "remote",
+      "collected_at": "2026-08-13",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital"
+      ],
+      "answers": {
+        "contact": 3,
+        "travel": 1,
+        "digital": null
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-09-02"
+      }
+    },
+    {
+      "record_id": "response-131",
+      "subject_id": "person-131",
+      "version": "short",
+      "group": "urban",
+      "collected_at": "2026-08-13",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital"
+      ],
+      "answers": {
+        "contact": 3,
+        "travel": 1,
+        "digital": 3
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-09-02"
+      }
+    },
+    {
+      "record_id": "response-132",
+      "subject_id": "person-132",
+      "version": "short",
+      "group": "urban",
+      "collected_at": "2026-08-14",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "digital"
+      ],
+      "answers": {
+        "contact": 0,
+        "digital": 0
+      },
+      "branch": "skip-travel",
+      "confirmed_demand": {
+        "value": false,
+        "known_at": "2026-09-03"
+      }
+    },
+    {
+      "record_id": "response-133",
+      "subject_id": "person-133",
+      "version": "short",
+      "group": "urban",
+      "collected_at": "2026-08-14",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital"
+      ],
+      "answers": {
+        "contact": 1,
+        "travel": 2,
+        "digital": 0
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-09-03"
+      }
+    },
+    {
+      "record_id": "response-134",
+      "subject_id": "person-134",
+      "version": "short",
+      "group": "urban",
+      "collected_at": "2026-08-14",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital"
+      ],
+      "answers": {
+        "contact": 2,
+        "travel": 3,
+        "digital": 0
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-09-03"
+      }
+    },
+    {
+      "record_id": "response-135",
+      "subject_id": "person-135",
+      "version": "short",
+      "group": "remote",
+      "collected_at": "2026-08-15",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "digital"
+      ],
+      "answers": {
+        "contact": 3,
+        "digital": 1
+      },
+      "branch": "skip-travel",
+      "confirmed_demand": {
+        "value": false,
+        "known_at": "2026-09-04"
+      }
+    },
+    {
+      "record_id": "response-136",
+      "subject_id": "person-136",
+      "version": "short",
+      "group": "urban",
+      "collected_at": "2026-08-15",
+      "analysis_consent": false,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital"
+      ],
+      "answers": {
+        "contact": 0,
+        "travel": 0,
+        "digital": 1
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-09-04"
+      }
+    },
+    {
+      "record_id": "response-137",
+      "subject_id": "person-137",
+      "version": "short",
+      "group": "urban",
+      "collected_at": "2026-08-15",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital"
+      ],
+      "answers": {
+        "contact": 1,
+        "travel": 0,
+        "digital": 1
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-09-04"
+      }
+    },
+    {
+      "record_id": "response-138",
+      "subject_id": "person-138",
+      "version": "short",
+      "group": "urban",
+      "collected_at": "2026-08-16",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "digital"
+      ],
+      "answers": {
+        "contact": 2,
+        "digital": 2
+      },
+      "branch": "skip-travel",
+      "confirmed_demand": {
+        "value": false,
+        "known_at": "2026-09-05"
+      }
+    },
+    {
+      "record_id": "response-139",
+      "subject_id": "person-139",
+      "version": "short",
+      "group": "urban",
+      "collected_at": "2026-08-16",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital"
+      ],
+      "answers": {
+        "contact": 3,
+        "travel": 1,
+        "digital": 2
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-09-05"
+      }
+    },
+    {
+      "record_id": "response-140",
+      "subject_id": "person-140",
+      "version": "short",
+      "group": "remote",
+      "collected_at": "2026-08-16",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital"
+      ],
+      "answers": {
+        "contact": 2,
+        "travel": 2,
+        "digital": 2
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-09-05"
+      }
+    },
+    {
+      "record_id": "response-141",
+      "subject_id": "person-141",
+      "version": "short",
+      "group": "urban",
+      "collected_at": "2026-08-17",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "digital"
+      ],
+      "answers": {
+        "contact": 1,
+        "digital": 3
+      },
+      "branch": "skip-travel",
+      "confirmed_demand": {
+        "value": false,
+        "known_at": "2026-09-06"
+      }
+    },
+    {
+      "record_id": "response-142",
+      "subject_id": "person-142",
+      "version": "short",
+      "group": "urban",
+      "collected_at": "2026-08-17",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital"
+      ],
+      "answers": {
+        "contact": 2,
+        "travel": 3,
+        "digital": 3
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-09-06"
+      }
+    },
+    {
+      "record_id": "response-143",
+      "subject_id": "person-143",
+      "version": "short",
+      "group": "urban",
+      "collected_at": "2026-08-17",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital"
+      ],
+      "answers": {
+        "contact": 3,
+        "travel": 3,
+        "digital": null
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-09-06"
+      }
+    },
+    {
+      "record_id": "response-144",
+      "subject_id": "person-144",
+      "version": "short",
+      "group": "urban",
+      "collected_at": "2026-08-18",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "digital"
+      ],
+      "answers": {
+        "contact": 0,
+        "digital": 0
+      },
+      "branch": "skip-travel",
+      "confirmed_demand": {
+        "value": false,
+        "known_at": "2026-09-07"
+      }
+    },
+    {
+      "record_id": "response-145",
+      "subject_id": "person-145",
+      "version": "short",
+      "group": "remote",
+      "collected_at": "2026-08-18",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital"
+      ],
+      "answers": {
+        "contact": 3,
+        "travel": 0,
+        "digital": 0
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-09-07"
+      }
+    },
+    {
+      "record_id": "response-146",
+      "subject_id": "person-146",
+      "version": "short",
+      "group": "urban",
+      "collected_at": "2026-08-18",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital"
+      ],
+      "answers": {
+        "contact": 2,
+        "travel": 1,
+        "digital": 0
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-09-07"
+      }
+    },
+    {
+      "record_id": "response-147",
+      "subject_id": "person-147",
+      "version": "short",
+      "group": "urban",
+      "collected_at": "2026-08-19",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "digital"
+      ],
+      "answers": {
+        "contact": 3,
+        "digital": 1
+      },
+      "branch": "skip-travel",
+      "confirmed_demand": {
+        "value": false,
+        "known_at": "2026-09-08"
+      }
+    },
+    {
+      "record_id": "response-148",
+      "subject_id": "person-148",
+      "version": "short",
+      "group": "urban",
+      "collected_at": "2026-08-19",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital"
+      ],
+      "answers": {
+        "contact": 0,
+        "travel": 2,
+        "digital": 1
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-09-08"
+      }
+    },
+    {
+      "record_id": "response-149",
+      "subject_id": "person-149",
+      "version": "short",
+      "group": "urban",
+      "collected_at": "2026-08-19",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital"
+      ],
+      "answers": {
+        "contact": 1,
+        "travel": 2,
+        "digital": 1
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-09-08"
+      }
+    },
+    {
+      "record_id": "response-150",
+      "subject_id": "person-150",
+      "version": "short",
+      "group": "remote",
+      "collected_at": "2026-08-20",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "digital"
+      ],
+      "answers": {
+        "contact": 3,
+        "digital": 2
+      },
+      "branch": "skip-travel",
+      "confirmed_demand": {
+        "value": false,
+        "known_at": "2026-09-09"
+      }
+    },
+    {
+      "record_id": "response-151",
+      "subject_id": "person-151",
+      "version": "short",
+      "group": "urban",
+      "collected_at": "2026-08-20",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital"
+      ],
+      "answers": {
+        "contact": 3,
+        "travel": 3,
+        "digital": 2
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-09-09"
+      }
+    },
+    {
+      "record_id": "response-152",
+      "subject_id": "person-152",
+      "version": "short",
+      "group": "urban",
+      "collected_at": "2026-08-20",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital"
+      ],
+      "answers": {
+        "contact": 0,
+        "travel": 0,
+        "digital": 2
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-09-09"
+      }
+    },
+    {
+      "record_id": "response-153",
+      "subject_id": "person-153",
+      "version": "short",
+      "group": "urban",
+      "collected_at": "2026-08-21",
+      "analysis_consent": false,
+      "displayed": [
+        "contact",
+        "digital"
+      ],
+      "answers": {
+        "contact": 1,
+        "digital": 3
+      },
+      "branch": "skip-travel",
+      "confirmed_demand": {
+        "value": false,
+        "known_at": "2026-09-10"
+      }
+    },
+    {
+      "record_id": "response-154",
+      "subject_id": "person-154",
+      "version": "short",
+      "group": "urban",
+      "collected_at": "2026-08-21",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital"
+      ],
+      "answers": {
+        "contact": 2,
+        "travel": 1,
+        "digital": 3
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-09-10"
+      }
+    },
+    {
+      "record_id": "response-155",
+      "subject_id": "person-155",
+      "version": "short",
+      "group": "remote",
+      "collected_at": "2026-08-21",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital"
+      ],
+      "answers": {
+        "contact": 3,
+        "travel": 1,
+        "digital": 3
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-09-10"
+      }
+    },
+    {
+      "record_id": "response-156",
+      "subject_id": "person-156",
+      "version": "short",
+      "group": "urban",
+      "collected_at": "2026-08-22",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "digital"
+      ],
+      "answers": {
+        "contact": 0,
+        "digital": null
+      },
+      "branch": "skip-travel",
+      "confirmed_demand": {
+        "value": false,
+        "known_at": "2026-09-11"
+      }
+    },
+    {
+      "record_id": "response-157",
+      "subject_id": "person-157",
+      "version": "short",
+      "group": "urban",
+      "collected_at": "2026-08-22",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital"
+      ],
+      "answers": {
+        "contact": 1,
+        "travel": 2,
+        "digital": 0
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-09-11"
+      }
+    },
+    {
+      "record_id": "response-158",
+      "subject_id": "person-158",
+      "version": "short",
+      "group": "urban",
+      "collected_at": "2026-08-22",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital"
+      ],
+      "answers": {
+        "contact": 2,
+        "travel": 3,
+        "digital": 0
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-09-11"
+      }
+    },
+    {
+      "record_id": "response-159",
+      "subject_id": "person-159",
+      "version": "short",
+      "group": "urban",
+      "collected_at": "2026-08-23",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "digital"
+      ],
+      "answers": {
+        "contact": 3,
+        "digital": 1
+      },
+      "branch": "skip-travel",
+      "confirmed_demand": {
+        "value": false,
+        "known_at": "2026-09-12"
+      }
+    },
+    {
+      "record_id": "response-160",
+      "subject_id": "person-160",
+      "version": "short",
+      "group": "remote",
+      "collected_at": "2026-08-23",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital"
+      ],
+      "answers": {
+        "contact": 2,
+        "travel": 0,
+        "digital": 1
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-09-12"
+      }
+    },
+    {
+      "record_id": "response-161",
+      "subject_id": "person-161",
+      "version": "short",
+      "group": "urban",
+      "collected_at": "2026-08-23",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital"
+      ],
+      "answers": {
+        "contact": 1,
+        "travel": 0,
+        "digital": 1
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-09-12"
+      }
+    },
+    {
+      "record_id": "response-162",
+      "subject_id": "person-162",
+      "version": "short",
+      "group": "urban",
+      "collected_at": "2026-08-24",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "digital"
+      ],
+      "answers": {
+        "contact": 2,
+        "digital": 2
+      },
+      "branch": "skip-travel",
+      "confirmed_demand": {
+        "value": false,
+        "known_at": "2026-09-13"
+      }
+    },
+    {
+      "record_id": "response-163",
+      "subject_id": "person-163",
+      "version": "short",
+      "group": "urban",
+      "collected_at": "2026-08-24",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital"
+      ],
+      "answers": {
+        "contact": 3,
+        "travel": 1,
+        "digital": 2
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-09-13"
+      }
+    },
+    {
+      "record_id": "response-164",
+      "subject_id": "person-164",
+      "version": "short",
+      "group": "urban",
+      "collected_at": "2026-08-24",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital"
+      ],
+      "answers": {
+        "contact": 0,
+        "travel": 2,
+        "digital": 2
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-09-13"
+      }
+    },
+    {
+      "record_id": "response-165",
+      "subject_id": "person-165",
+      "version": "short",
+      "group": "remote",
+      "collected_at": "2026-08-25",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "digital"
+      ],
+      "answers": {
+        "contact": 3,
+        "digital": 3
+      },
+      "branch": "skip-travel",
+      "confirmed_demand": {
+        "value": false,
+        "known_at": "2026-09-14"
+      }
+    },
+    {
+      "record_id": "response-166",
+      "subject_id": "person-166",
+      "version": "short",
+      "group": "urban",
+      "collected_at": "2026-08-25",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital"
+      ],
+      "answers": {
+        "contact": 2,
+        "travel": 3,
+        "digital": 3
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-09-14"
+      }
+    },
+    {
+      "record_id": "response-167",
+      "subject_id": "person-167",
+      "version": "short",
+      "group": "urban",
+      "collected_at": "2026-08-25",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital"
+      ],
+      "answers": {
+        "contact": 3,
+        "travel": 3,
+        "digital": 3
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-09-14"
+      }
+    },
+    {
+      "record_id": "response-168",
+      "subject_id": "person-168",
+      "version": "short",
+      "group": "urban",
+      "collected_at": "2026-08-26",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "digital"
+      ],
+      "answers": {
+        "contact": 0,
+        "digital": 0
+      },
+      "branch": "skip-travel",
+      "confirmed_demand": {
+        "value": false,
+        "known_at": "2026-09-15"
+      }
+    },
+    {
+      "record_id": "response-169",
+      "subject_id": "person-169",
+      "version": "short",
+      "group": "urban",
+      "collected_at": "2026-08-26",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital"
+      ],
+      "answers": {
+        "contact": 1,
+        "travel": 0,
+        "digital": null
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-09-15"
+      }
+    },
+    {
+      "record_id": "response-170",
+      "subject_id": "person-170",
+      "version": "short",
+      "group": "remote",
+      "collected_at": "2026-08-26",
+      "analysis_consent": false,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital"
+      ],
+      "answers": {
+        "contact": 3,
+        "travel": 1,
+        "digital": 0
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-09-15"
+      }
+    },
+    {
+      "record_id": "response-171",
+      "subject_id": "person-171",
+      "version": "short",
+      "group": "urban",
+      "collected_at": "2026-08-27",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "digital"
+      ],
+      "answers": {
+        "contact": 3,
+        "digital": 1
+      },
+      "branch": "skip-travel",
+      "confirmed_demand": {
+        "value": false,
+        "known_at": "2026-09-16"
+      }
+    },
+    {
+      "record_id": "response-172",
+      "subject_id": "person-172",
+      "version": "short",
+      "group": "urban",
+      "collected_at": "2026-08-27",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital"
+      ],
+      "answers": {
+        "contact": 0,
+        "travel": 2,
+        "digital": 1
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-09-16"
+      }
+    },
+    {
+      "record_id": "response-173",
+      "subject_id": "person-173",
+      "version": "short",
+      "group": "urban",
+      "collected_at": "2026-08-27",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital"
+      ],
+      "answers": {
+        "contact": 1,
+        "travel": 2,
+        "digital": 1
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-09-16"
+      }
+    },
+    {
+      "record_id": "response-174",
+      "subject_id": "person-174",
+      "version": "short",
+      "group": "urban",
+      "collected_at": "2026-08-28",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "digital"
+      ],
+      "answers": {
+        "contact": 2,
+        "digital": 2
+      },
+      "branch": "skip-travel",
+      "confirmed_demand": {
+        "value": false,
+        "known_at": "2026-09-17"
+      }
+    },
+    {
+      "record_id": "response-175",
+      "subject_id": "person-175",
+      "version": "short",
+      "group": "remote",
+      "collected_at": "2026-08-28",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital"
+      ],
+      "answers": {
+        "contact": 3,
+        "travel": 3,
+        "digital": 2
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-09-17"
+      }
+    },
+    {
+      "record_id": "response-176",
+      "subject_id": "person-176",
+      "version": "short",
+      "group": "urban",
+      "collected_at": "2026-08-28",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital"
+      ],
+      "answers": {
+        "contact": 0,
+        "travel": 0,
+        "digital": 2
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-09-17"
+      }
+    },
+    {
+      "record_id": "response-177",
+      "subject_id": "person-177",
+      "version": "short",
+      "group": "urban",
+      "collected_at": "2026-08-29",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "digital"
+      ],
+      "answers": {
+        "contact": 1,
+        "digital": 3
+      },
+      "branch": "skip-travel",
+      "confirmed_demand": {
+        "value": false,
+        "known_at": "2026-09-18"
+      }
+    },
+    {
+      "record_id": "response-178",
+      "subject_id": "person-178",
+      "version": "short",
+      "group": "urban",
+      "collected_at": "2026-08-29",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital"
+      ],
+      "answers": {
+        "contact": 2,
+        "travel": 1,
+        "digital": 3
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-09-18"
+      }
+    },
+    {
+      "record_id": "response-179",
+      "subject_id": "person-179",
+      "version": "short",
+      "group": "urban",
+      "collected_at": "2026-08-29",
+      "analysis_consent": true,
+      "displayed": [
+        "contact",
+        "travel",
+        "digital"
+      ],
+      "answers": {
+        "contact": 3,
+        "travel": 1,
+        "digital": 3
+      },
+      "branch": "full",
+      "confirmed_demand": {
+        "value": true,
+        "known_at": "2026-09-18"
+      }
+    },
+    {
+      "record_id": "unsupported",
+      "subject_id": "person-new",
+      "version": "third",
+      "group": "new-region",
+      "collected_at": "2026-09-09",
+      "analysis_consent": true,
+      "displayed": [
+        "new-item"
+      ],
+      "answers": {
+        "new-item": 2
+      },
+      "branch": "other"
+    }
+  ]
+}

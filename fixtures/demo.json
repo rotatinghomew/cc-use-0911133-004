@@ -1,0 +1,14 @@
+{
+  "subject_id": "synthetic-consent_intake-001",
+  "request_key": "demo-1-001",
+  "payload": {
+    "score": 27,
+    "consent_scope": 18,
+    "guardian_required": 42,
+    "source": "local-synthetic-fixture",
+    "observations": [
+      "alpha",
+      "beta"
+    ]
+  }
+}

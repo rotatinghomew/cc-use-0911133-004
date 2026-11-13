@@ -1,0 +1,10 @@
+{
+  "package": "intake_hub",
+  "tests": "tests/consent_intake",
+  "entrypoint": "intake_hub.gateway.command",
+  "fixture_prefix": [
+    "--fixture"
+  ],
+  "database_flag": "--database",
+  "analysis_fixture": "fixtures/questionnaire_link.json"
+}
